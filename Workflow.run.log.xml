@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecTemplate>
+  <Record date="2023-09-19T01:04:20.9665635Z" file="Workflow.xml" title="T1" description="Without Manager's Approval">
+    <Run providerType="JSONComposer" file=".RunTemplate\65c3c5fb-3ebc-4b94-b6c2-4fb9d222d2a4.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-09-19T03:39:11.1631421Z" file="Workflow.xml" title="T2" description="Need Manager Approval">
+    <Run providerType="JSONComposer" file=".RunTemplate\fc49588b-a44b-41c8-9238-e063191b4931.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-09-19T04:00:11.7648436Z" file="Workflow.xml" title="T3" description="Need Manager's Approval">
+    <Run providerType="JSONComposer" file=".RunTemplate\72b0066a-97ef-4b85-a662-3b260b89c8cd.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+</ExecTemplate>

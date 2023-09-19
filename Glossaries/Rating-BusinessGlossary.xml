@@ -1,0 +1,14 @@
+<Glossary name="Rating Glossary">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />
+  </Declaration>
+  <Term name="Price" expression="Car.Price" domain="Numeric" />
+  <Term name="Car is listed in HTPA" expression="Car.HighTheftProbabilityAuto" domain="Boolean" />
+  <Term name="Theft Rating" expression="Eligibility.TheftRating" domain="Options">
+    <Option value="High" />
+    <Option value="Low" />
+    <Option value="Moderate" />
+  </Term>
+  <Term name="Car is Convertible" expression="Car.Convertible" domain="Boolean" />
+</Glossary>

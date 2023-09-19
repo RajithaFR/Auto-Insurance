@@ -1,0 +1,20 @@
+<DRD name="Calculate Premium">
+  <Declaration>
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Local" />
+  </Declaration>
+  <Nodes>
+    <Decision name="Decision265" uri="Calculate Auto Premium.xml" contextMode="Shared" type="Table">
+      <Transition name="Transition268" to="Decision267" relationType="Information" />
+    </Decision>
+    <Decision name="Decision266" uri="Driver Premium.xml" contextMode="Shared" type="Table">
+      <Transition name="Transition269" to="Decision267" relationType="Information" />
+    </Decision>
+    <Decision name="Decision267" />
+    <InputData name="Car" isOutput="False" type="Car" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition166" to="Decision267" relationType="Information" />
+    </InputData>
+    <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition168" to="Decision267" relationType="Information" />
+    </InputData>
+  </Nodes>
+</DRD>

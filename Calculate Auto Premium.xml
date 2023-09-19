@@ -1,0 +1,130 @@
+<DecisionTable name="Calculate Auto Premium" processAll="True">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
+    <Using path="System.DateTime" />
+  </Declaration>
+  <Columns>
+    <Condition name="Car Type" expression="Car.CarType" />
+    <Condition name="Is Car New?" expression="(((Car.ModelYear==DateTime.Today.Year) || (Car.ModelYear==(DateTime.Today.Year+1))) == $value)" />
+    <Condition name="Car Age" expression="dateDiff('years',today(),Car.ModelYear|asDate(yyyy))" />
+    <Condition name="Uninsured Motorist&#xA;coverage is included" expression="Car.UninsuredMotoristCoverage" />
+    <Condition name="Medical coverage&#xA;is included" expression="Car.HasMedicalCoverage" />
+    <Condition name="Potential Occupant&#xA;Injury Rate" expression="Eligibility.OccupantInjuryRating" />
+    <Condition name="Potential &#xA;Theft Rating" expression="Eligibility.TheftRating" />
+    <Action name="Auto &#xA;Premium" expression="Premium.AutoPremium" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>Compact</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 250</Value>
+    </Row>
+    <Row>
+      <Value>Sedan</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 400</Value>
+    </Row>
+    <Row>
+      <Value>Luxury</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 500</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+=400</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>false</Value>
+      <Value>&lt; 5</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 300</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>false</Value>
+      <Value>[5; 10]</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 250</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 300</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 600</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>ExtremelyHigh</Value>
+      <Value></Value>
+      <Value>+= 1000</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High</Value>
+      <Value></Value>
+      <Value>+= 500</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High</Value>
+      <Value>+= 500</Value>
+    </Row>
+  </Data>
+</DecisionTable>

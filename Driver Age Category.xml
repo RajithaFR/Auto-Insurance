@@ -1,0 +1,64 @@
+<DecisionTable name="Driver Age Category" processAll="False">
+  <Declaration>
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Out" />
+  </Declaration>
+  <Columns>
+    <Condition name="Age" expression="Driver.Age" />
+    <Condition name="Gender" expression="Driver.Gender" />
+    <Condition name="Training Certification" expression="Driver.TainingCertification" />
+    <Action name="Age Category" expression="Eligibility.AgeCategory" />
+    <Action name="Age Eligibility Category" expression="Eligibility.AgeEligibilityCategory" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>&lt;25</Value>
+      <Value>Male</Value>
+      <Value>false</Value>
+      <Value>Young Driver</Value>
+      <Value>Young Driver</Value>
+    </Row>
+    <Row>
+      <Value>&lt;20</Value>
+      <Value>Female</Value>
+      <Value>false</Value>
+      <Value>Young Driver</Value>
+      <Value>Young Driver</Value>
+    </Row>
+    <Row>
+      <Value>&gt;70</Value>
+      <Value></Value>
+      <Value>false</Value>
+      <Value>Senior Driver</Value>
+      <Value>Senior Driver</Value>
+    </Row>
+    <Row>
+      <Value>&lt;25</Value>
+      <Value>Male</Value>
+      <Value>true</Value>
+      <Value>Young Driver</Value>
+      <Value>Eligible Driver</Value>
+    </Row>
+    <Row>
+      <Value>&lt;20</Value>
+      <Value>Female</Value>
+      <Value>true</Value>
+      <Value>Young Driver</Value>
+      <Value>Eligible Driver</Value>
+    </Row>
+    <Row>
+      <Value>&gt;70</Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value>Senior Driver</Value>
+      <Value>Eligible Driver</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Eligible Driver</Value>
+    </Row>
+  </Data>
+</DecisionTable>

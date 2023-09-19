@@ -1,0 +1,107 @@
+<DecisionTable name="Eligibility Scoring">
+  <Declaration>
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="InOut" />
+  </Declaration>
+  <Columns>
+    <Condition name="Auto Eligibility" expression="Eligibility.AutoEligibility" />
+    <Condition name="Driver Age Category" expression="Eligibility.AgeCategory" />
+    <Condition name="Age Eligibility Category" expression="Eligibility.AgeEligibilityCategory" />
+    <Condition name="Training Certification" expression="Driver.TainingCertification" />
+    <Condition name="Driving Record Category" expression="Eligibility.DrivingRecordCategory" />
+    <Condition name="Client Type" expression="Driver.ClientType" />
+    <Action name="Eligibility Score" expression="Eligibility.EligibilityScore" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>=0</Value>
+    </Row>
+    <Row>
+      <Value>Not Eligible</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> +=  100</Value>
+    </Row>
+    <Row>
+      <Value>Provisional</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+= 50</Value>
+    </Row>
+    <Row>
+      <Value>Eligible</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+=0</Value>
+    </Row>
+    <Row>
+      <Value>Not Eligible</Value>
+      <Value>Young Driver</Value>
+      <Value></Value>
+      <Value>false</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+=30</Value>
+    </Row>
+    <Row>
+      <Value>Not Eligible</Value>
+      <Value>Senior Driver</Value>
+      <Value></Value>
+      <Value>false</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+=20</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value>Eligible Driver</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>+=0</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High Risk</Value>
+      <Value></Value>
+      <Value>+=100</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Preferred Client</Value>
+      <Value>-=50</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Elite Client</Value>
+      <Value>-=100</Value>
+    </Row>
+  </Data>
+</DecisionTable>

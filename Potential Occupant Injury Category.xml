@@ -1,0 +1,48 @@
+<DecisionTable name="Potential Occupant Injury Category" processAll="False">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Out" />
+  </Declaration>
+  <Columns>
+    <Condition name="Driver’s Air Bag" expression="Car.Airbag.Driver" />
+    <Condition name="Front Passenger Air Bags" expression="Car.Airbag.Passenger" />
+    <Condition name="Side Panel Air Bags" expression="Car.Airbag.SidePanel" />
+    <Condition name="Is Convertible" expression="Car.Convertible" />
+    <Condition name="Has a Roll Bar" expression="Car.HasRollBar" />
+    <Action name="Potential Occupant Injury Rating" expression="Eligibility.OccupantInjuryRating" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Extremely High</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Low</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value>false</Value>
+      <Value>ExtremelyHigh</Value>
+    </Row>
+  </Data>
+</DecisionTable>

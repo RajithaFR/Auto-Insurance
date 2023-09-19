@@ -1,0 +1,44 @@
+<DecisionTable name="Potential Theft Category">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Out" />
+  </Declaration>
+  <Columns>
+    <Condition name="Is Convertible" expression="Car.Convertible" />
+    <Condition name="Price" expression="Car.Price" />
+    <Condition name="Is in High Theft Probability Auto List" expression="Car.HighTheftProbabilityAuto" />
+    <Action name="Potential Theft Rating" expression="Eligibility.TheftRating" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>&gt; 45000</Value>
+      <Value></Value>
+      <Value>High</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value>High</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>[20000,45000]</Value>
+      <Value>false</Value>
+      <Value>Moderate</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>&lt;20000</Value>
+      <Value>false</Value>
+      <Value>Low</Value>
+    </Row>
+  </Data>
+</DecisionTable>

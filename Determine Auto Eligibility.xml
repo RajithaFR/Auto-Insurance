@@ -1,0 +1,32 @@
+<DecisionTable name="Determine Auto Eligibility" processAll="False">
+  <Declaration>
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="InOut" />
+  </Declaration>
+  <Columns>
+    <Condition name="Potential Occupant Injury Rating" expression="Eligibility.OccupantInjuryRating" />
+    <Condition name="Potential Theft Rating" expression="Eligibility.TheftRating" />
+    <Action name="Auto Eligibility" expression="Eligibility.AutoEligibility" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>ExtremelyHigh</Value>
+      <Value></Value>
+      <Value>Not Eligible</Value>
+    </Row>
+    <Row>
+      <Value>High</Value>
+      <Value></Value>
+      <Value>Provisional</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>High</Value>
+      <Value>Provisional</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value>Eligible</Value>
+    </Row>
+  </Data>
+</DecisionTable>

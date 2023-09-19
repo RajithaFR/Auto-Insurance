@@ -1,0 +1,32 @@
+{
+    "Car":
+    {
+        "Airbag":
+        {
+            "Driver":false,
+            "Passenger":false,
+            "SidePanel":false
+        },
+        "AlarmSystem":false,
+        "Price":49000,
+        "HighTheftProbabilityAuto":true,
+        "Convertible":false,
+        "HasRollBar":true,
+        "CarType":null,
+        "ModelYear":2022,
+        "UninsuredMotoristCoverage":false,
+        "HasMedicalCoverage":false
+    },
+    "Driver":
+    {
+        "Age":21,
+        "Gender":"Male",
+        "DUI":true,
+        "NumberOfAccident":5,
+        "Violation":1,
+        "ClientType":"Preferred Client",
+        "TainingCertification":false,
+        "Married":false,
+        "Location":"CA"
+    }
+}

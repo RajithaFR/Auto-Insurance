@@ -1,0 +1,56 @@
+<DecisionTable name="AutoDiscounts">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />
+  </Declaration>
+  <Columns>
+    <Condition name="Driver's Airbag" expression="Car.Airbag.Driver" />
+    <Condition name="Front Passenger's Airbag" expression="Car.Airbag.Passenger" />
+    <Condition name="Side Panel Airbag" expression="Car.Airbag.SidePanel" />
+    <Condition name="Theft Rating" expression="Eligibility.TheftRating" />
+    <Condition name="Alarm System" expression="Car.AlarmSystem" />
+    <Action name="Auto Premium Discount" expression="Premium.AutoPremiumDiscount" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>0</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>0.12</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>0.15</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>0.18</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High</Value>
+      <Value>true</Value>
+      <Value>0.10</Value>
+    </Row>
+  </Data>
+</DecisionTable>

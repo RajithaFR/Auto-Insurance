@@ -1,0 +1,38 @@
+<DecisionTable name="Driving Record Category" processAll="False">
+  <Declaration>
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Out" />
+  </Declaration>
+  <Columns>
+    <Condition name="DUI" expression="Driver.DUI" />
+    <Condition name="Number of Accidents" expression="Driver.NumberOfAccident" />
+    <Condition name="Violation" expression="Driver.Violation" />
+    <Action name="DrivingRecordCategory" expression="Eligibility.DrivingRecordCategory" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>true</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High Risk</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>&gt;2</Value>
+      <Value></Value>
+      <Value>High Risk</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value>&gt;3</Value>
+      <Value>High Risk</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>Low Risk</Value>
+    </Row>
+  </Data>
+</DecisionTable>

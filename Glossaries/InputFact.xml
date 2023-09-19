@@ -1,0 +1,51 @@
+<Concept namespace="Scopes">
+  <Fact name="Car">
+    <Property name="AlarmSystem" type="bool" />
+    <Property name="Airbag" fact="Airbags" />
+    <Property name="Price" type="double" />
+    <Property name="HighTheftProbabilityAuto" type="bool" />
+    <Property name="Convertible" type="bool" />
+    <Property name="HasRollBar" type="bool" />
+    <Property name="ModelYear" type="int" />
+    <Property name="CarType" fact="CarType" />
+    <Property name="UninsuredMtoristCoverage" type="bool" />
+    <Property name="HasMedicalCoverage" type="bool" />
+  </Fact>
+  <Fact name="Airbags">
+    <Property name="Driver" type="bool" />
+    <Property name="Passenger" type="bool" />
+    <Property name="SidePanel" type="bool" />
+  </Fact>
+  <Option name="CarType">
+    <Property name="Sedan" />
+    <Property name="Luxury" />
+    <Property name="Compact" />
+  </Option>
+  <Fact name="Driver">
+    <Property name="Age" type="int" />
+    <Property name="Gender" fact="Gender" />
+    <Property name="DUI" type="bool" />
+    <Property name="NumberOfAccident" type="int" />
+    <Property name="Violation" type="int" />
+    <Property name="TrainingCertification" type="bool" />
+    <Property name="ClientType" fact="ClientType" />
+    <Property name="Married" type="bool" />
+    <Property name="Location" fact="Location" />
+  </Fact>
+  <Option name="Gender">
+    <Property name="Female" />
+    <Property name="Male" />
+  </Option>
+  <Option name="ClientType">
+    <Property name="Elite Client" />
+    <Property name="Preferred Client" />
+  </Option>
+  <Option name="Location">
+    <Property name="GE" />
+    <Property name="MI" />
+    <Property name="CA" />
+    <Property name="NY" />
+    <Property name="VA" />
+    <Property name="NJ" />
+  </Option>
+</Concept>

@@ -1,0 +1,23 @@
+<DRD name="Calculate Discount">
+  <Nodes>
+    <Decision name="Decision170" uri="AutoDiscounts.xml" contextMode="Shared" type="Table">
+      <Transition name="Transition60" to="Decision59" relationType="Information" />
+    </Decision>
+    <Decision name="Decision171" uri="Market Segment Discount.xml" contextMode="Shared" type="Table" />
+    <InputData name="Premium" isOutput="True" type="Premium" assembly="Glossaries\Concept.xml">
+      <Transition name="Transition62" to="Decision171" relationType="Information" />
+    </InputData>
+    <InputData name="Car" isOutput="False" type="Car" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition72" to="Decision171" relationType="Information" />
+    </InputData>
+    <InputData name="Eligibility" isOutput="False" type="Eligibility" assembly="Glossaries\Concept.xml">
+      <Transition name="Transition101" to="Decision171" relationType="Information" />
+    </InputData>
+    <Decision name="Decision59" expression="Premium.AutoPremium= Premium.AutoPremium * (1 - Premium.AutoPremiumDiscount)">
+      <Transition name="Transition61" to="Decision171" relationType="Information" />
+    </Decision>
+    <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition133" to="Decision171" relationType="Information" />
+    </InputData>
+  </Nodes>
+</DRD>

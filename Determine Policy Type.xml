@@ -1,0 +1,60 @@
+<DecisionTable name="Determine Policy Type">
+  <Columns>
+    <Condition name="Federal Medicaid" />
+    <Condition name="Own a Home" />
+    <Condition name="Have Dependents" />
+    <Condition name="Have Significant Assets" />
+    <Action name="Policy Type" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>true</Value>
+      <Value />
+      <Value />
+      <Value />
+      <Value>SAIP</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value />
+      <Value>BASIC</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value />
+      <Value>false</Value>
+      <Value>false</Value>
+      <Value>BASIC</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value>false</Value>
+      <Value />
+      <Value>false</Value>
+      <Value>BASIC</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value />
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>STANDARD</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value />
+      <Value>STANDARD</Value>
+    </Row>
+    <Row>
+      <Value />
+      <Value>true</Value>
+      <Value />
+      <Value>true</Value>
+      <Value>STANDARD</Value>
+    </Row>
+  </Data>
+</DecisionTable>

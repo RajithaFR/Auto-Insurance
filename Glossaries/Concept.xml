@@ -1,0 +1,44 @@
+<Concept namespace="Scopes">
+  <Fact name="Eligibility">
+    <Property name="TheftRating" fact="TheftRating" />
+    <Property name="OccupantInjuryRating" fact="InjuryRate" />
+    <Property name="DrivingRecordCategory" fact="DrivingRecord" />
+    <Property name="AutoEligibility" fact="AutoEligibility" />
+    <Property name="AgeCategory" fact="AgeCategory" />
+    <Property name="AgeEligibilityCategory" fact="AgeEligibilityCategory" />
+    <Property name="EligibilityScore" type="int" />
+  </Fact>
+  <Option name="TheftRating">
+    <Property name="High" />
+    <Property name="Low" />
+    <Property name="Moderate" />
+  </Option>
+  <Option name="InjuryRate">
+    <Property name="High" />
+    <Property name="Low" />
+    <Property name="Moderate" />
+    <Property name="ExtremelyHigh" />
+  </Option>
+  <Option name="DrivingRecord">
+    <Property name="High Risk" />
+    <Property name="Low Risk" />
+  </Option>
+  <Option name="AutoEligibility">
+    <Property name="Eligible" />
+    <Property name="Not Eligible" />
+    <Property name="Provisional" />
+  </Option>
+  <Option name="AgeEligibilityCategory">
+    <Property name="Eligible Driver" />
+    <Property name="Young Driver" />
+    <Property name="Senior Driver" />
+  </Option>
+  <Option name="AgeCategory">
+    <Property name="Senior Driver" />
+    <Property name="Young Driver" />
+  </Option>
+  <Fact name="Premium">
+    <Property name="AutoPremium" type="double" />
+    <Property name="AutoPremiumDiscount" type="double" />
+  </Fact>
+</Concept>

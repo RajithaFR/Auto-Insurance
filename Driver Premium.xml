@@ -1,0 +1,82 @@
+<DecisionTable name="Driver Premium" processAll="True">
+  <Declaration>
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="InOut" />
+    <Using path="System.DateTime" />
+  </Declaration>
+  <Columns>
+    <Condition name="DriverAgeCategory" expression="Eligibility.AgeEligibilityCategory" />
+    <Condition name="Married" expression="Driver.Married" />
+    <Condition name="Location" expression="Driver.Location" />
+    <Condition name="DrivingRecordCategory" expression="Eligibility.DrivingRecordCategory" />
+    <Condition name="Number of Accidents" expression="Driver.NumberOfAccident" />
+    <Action name="Auto &#xA;Premium" expression="Premium.AutoPremium" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> =0</Value>
+    </Row>
+    <Row>
+      <Value>Young Driver</Value>
+      <Value>true</Value>
+      <Value>in{CA,NY,VA}</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> +=  700</Value>
+    </Row>
+    <Row>
+      <Value>Young Driver</Value>
+      <Value>false</Value>
+      <Value>in{CA,NY,VA}</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> +=  720</Value>
+    </Row>
+    <Row>
+      <Value>Young Driver</Value>
+      <Value></Value>
+      <Value>not: in{CA,NY,VA}</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> +=  300</Value>
+    </Row>
+    <Row>
+      <Value>Senior Driver</Value>
+      <Value></Value>
+      <Value>in{CA,NY,VA}</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> += 500</Value>
+    </Row>
+    <Row>
+      <Value>Senior Driver</Value>
+      <Value></Value>
+      <Value>not: in{CA,NY,VA}</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value> += 200</Value>
+    </Row>
+    <Row>
+      <Value>Eligible Driver</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>High Risk</Value>
+      <Value></Value>
+      <Value> += 1000</Value>
+    </Row>
+    <Row>
+      <Value>Eligible Driver</Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>&gt;=1</Value>
+      <Value> +=  (150 * Driver.NumberOfAccident)</Value>
+    </Row>
+  </Data>
+</DecisionTable>

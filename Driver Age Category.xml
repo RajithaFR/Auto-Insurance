@@ -6,7 +6,7 @@
   <Columns>
     <Condition name="Age" expression="Driver.Age" />
     <Condition name="Gender" expression="Driver.Gender" />
-    <Condition name="Training Certification" expression="Driver.TainingCertification" />
+    <Condition name="Training Certification" expression="Driver.TrainingCertification" />
     <Action name="Age Category" expression="Eligibility.AgeCategory" />
     <Action name="Age Eligibility Category" expression="Eligibility.AgeEligibilityCategory" />
   </Columns>

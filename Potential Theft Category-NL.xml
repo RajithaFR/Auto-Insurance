@@ -1,4 +1,7 @@
 <Natural name="Potential Theft Category-NL">
+  <Declaration>
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Local" value="{}" />
+  </Declaration>
   <Glossary>
     <GlossarySource uri="Glossaries\Rating-BusinessGlossary.xml" />
   </Glossary>

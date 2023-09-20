@@ -12,4 +12,8 @@
     <Run providerType="JSONComposer" file=".RunTemplate\72b0066a-97ef-4b85-a662-3b260b89c8cd.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>
+  <Record date="2023-09-19T23:46:01.6446898Z" file="Workflow.xml" title="Test Case" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\479cd748-90c7-4870-8563-26ce175cc3fa.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
 </ExecTemplate>

@@ -3,10 +3,12 @@
     <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Local" />
     <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
+    <Define name="IsValid" type="bool" direction="Local" />
   </Declaration>
   <Nodes>
     <Start name="Start231">
-      <Transition name="Transition233" to="Activity232" />
+      <Transition name="Transition43" to="Activity42" />
     </Start>
     <Activity name="Activity232">
       <CallDrd contextMode="Shared">
@@ -47,5 +49,15 @@
       </CallDrd>
       <Transition name="Transition77" to="End296" />
     </Activity>
+    <Activity name="Activity42">
+      <Validator return="IsValid">
+        <ValidatorSource uri="Glossaries\InputFact.xml" />
+        <Fact name="Car" value="Car" />
+        <Fact name="Driver" value="Driver" />
+      </Validator>
+      <Transition name="Transition44" to="Activity232" condition="IsValid" />
+      <Transition name="Transition46" to="Terminate45" />
+    </Activity>
+    <Terminate name="Terminate45" />
   </Nodes>
 </Workflow>

@@ -1,0 +1,10 @@
+<TestCase Description="" id="TestCase50">
+  <Section Description="" id="Section51">
+    <Test Description="" id="Test25">
+      <AssertTrue Description="" id="AssertTrue26" />
+    </Test>
+    <Test Description="" id="Test27">
+      <AssertTrue Description="" id="AssertTrue28" />
+    </Test>
+  </Section>
+</TestCase>

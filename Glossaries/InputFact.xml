@@ -2,12 +2,21 @@
   <Fact name="Car">
     <Property name="AlarmSystem" type="bool" />
     <Property name="Airbag" fact="Airbags" />
-    <Property name="Price" type="double" />
+    <Property name="Price" type="double">
+      <Constraints processAll="True">
+        <Add type="Required" message="Price is required." />
+        <Add type="NotNullOrEmpty" message="Price cannot be null or empty." />
+      </Constraints>
+    </Property>
     <Property name="HighTheftProbabilityAuto" type="bool" />
     <Property name="Convertible" type="bool" />
     <Property name="HasRollBar" type="bool" />
     <Property name="ModelYear" type="int" />
-    <Property name="CarType" fact="CarType" />
+    <Property name="CarType" fact="CarType">
+      <Constraints processAll="True">
+        <Add type="NotNullOrEmpty" message="CarType cannot be null or empty." />
+      </Constraints>
+    </Property>
     <Property name="UninsuredMtoristCoverage" type="bool" />
     <Property name="HasMedicalCoverage" type="bool" />
   </Fact>
@@ -22,15 +31,27 @@
     <Property name="Compact" />
   </Option>
   <Fact name="Driver">
-    <Property name="Age" type="int" />
-    <Property name="Gender" fact="Gender" />
+    <Property name="Age" type="int">
+      <Constraints processAll="True">
+        <Add type="Required" message="Age is required." />
+      </Constraints>
+    </Property>
+    <Property name="Gender" fact="Gender">
+      <Constraints processAll="True">
+        <Add type="Required" message="Gender is required." />
+      </Constraints>
+    </Property>
     <Property name="DUI" type="bool" />
     <Property name="NumberOfAccident" type="int" />
     <Property name="Violation" type="int" />
     <Property name="TrainingCertification" type="bool" />
     <Property name="ClientType" fact="ClientType" />
     <Property name="Married" type="bool" />
-    <Property name="Location" fact="Location" />
+    <Property name="Location" fact="Location">
+      <Constraints processAll="True">
+        <Add type="Required" message="Location is required." />
+      </Constraints>
+    </Property>
   </Fact>
   <Option name="Gender">
     <Property name="Female" />

@@ -1,0 +1,32 @@
+{
+    "Car":
+    {
+        "AlarmSystem":false,
+        "Airbag":
+        {
+            "Driver":false,
+            "Passenger":false,
+            "SidePanel":false
+        },
+        "Price":25000,
+        "HighTheftProbabilityAuto":false,
+        "Convertible":false,
+        "HasRollBar":false,
+        "ModelYear":2022,
+        "CarType":"Compact",
+        "UninsuredMtoristCoverage":false,
+        "HasMedicalCoverage":false
+    },
+    "Driver":
+    {
+        "Age":25,
+        "Gender":"Male",
+        "DUI":false,
+        "NumberOfAccident":1,
+        "Violation":0,
+        "TrainingCertification":true,
+        "ClientType":"Preferred Client",
+        "Married":true,
+        "Location":"CA"
+    }
+}

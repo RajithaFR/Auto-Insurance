@@ -13,7 +13,7 @@
           </lines>
           <bounds x="0" y="0" width="1" height="1" />
           <style t="1">
-            <width>88.5pt</width>
+            <width>125.25pt</width>
             <hidden>0</hidden>
             <conditionalFormats />
           </style>
@@ -78,50 +78,13 @@
           </lines>
           <bounds x="1" y="0" width="1" height="1" />
           <style t="2">
+            <height>14.25pt</height>
             <hidden>0</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
             <fontSize>8</fontSize>
             <fontItalic>1</fontItalic>
             <halign>2</halign>
-          </style>
-        </region>
-        <region>
-          <lines>
-            <l ymin="0" ymax="1">
-              <segments>
-                <s p="3" s="1" />
-                <s p="4" s="0" />
-              </segments>
-            </l>
-          </lines>
-          <bounds x="3" y="0" width="1" height="1" />
-          <style t="2">
-            <height>14.25pt</height>
-            <conditionalFormats />
-            <fontName>Segoe UI</fontName>
-            <fontSize>9</fontSize>
-            <indent>2px</indent>
-          </style>
-        </region>
-        <region>
-          <lines>
-            <l ymin="0" ymax="1">
-              <segments>
-                <s p="4" s="1" />
-                <s p="6" s="0" />
-                <s p="6" s="1" />
-                <s p="7" s="0" />
-              </segments>
-            </l>
-          </lines>
-          <bounds x="4" y="0" width="3" height="1" />
-          <style t="2">
-            <height>14.25pt</height>
-            <conditionalFormats />
-            <fontName>Segoe UI</fontName>
-            <fontSize>9</fontSize>
-            <indent>2px</indent>
           </style>
         </region>
         <region>
@@ -154,6 +117,7 @@
           </lines>
           <bounds x="2" y="0" width="1" height="1" />
           <style t="2">
+            <height>14.25pt</height>
             <hidden>0</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
@@ -218,13 +182,7 @@
         </region>
         <region>
           <lines>
-            <l ymin="0" ymax="2">
-              <segments>
-                <s p="0" s="1" />
-                <s p="2" s="0" />
-              </segments>
-            </l>
-            <l ymin="2" ymax="3">
+            <l ymin="0" ymax="3">
               <segments>
                 <s p="0" s="1" />
                 <s p="1" s="0" />

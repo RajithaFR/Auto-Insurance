@@ -1,0 +1,32 @@
+{
+    "Car":
+    {
+        "AlarmSystem":false,
+        "Airbag":
+        {
+            "Driver":false,
+            "Passenger":false,
+            "SidePanel":false
+        },
+        "Price":250000,
+        "HighTheftProbabilityAuto":true,
+        "Convertible":true,
+        "HasRollBar":false,
+        "ModelYear":2023,
+        "CarType":"Luxury",
+        "UninsuredMtoristCoverage":false,
+        "HasMedicalCoverage":false
+    },
+    "Driver":
+    {
+        "Age":21,
+        "Gender":"Male",
+        "DUI":true,
+        "NumberOfAccident":5,
+        "Violation":6,
+        "TrainingCertification":false,
+        "ClientType":null,
+        "Married":false,
+        "Location":"CA"
+    }
+}

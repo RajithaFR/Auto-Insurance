@@ -1,0 +1,32 @@
+{
+    "Car":
+    {
+        "AlarmSystem":false,
+        "Airbag":
+        {
+            "Driver":true,
+            "Passenger":false,
+            "SidePanel":true
+        },
+        "Price":125000,
+        "HighTheftProbabilityAuto":true,
+        "Convertible":false,
+        "HasRollBar":true,
+        "ModelYear":2022,
+        "CarType":"Luxury",
+        "UninsuredMtoristCoverage":false,
+        "HasMedicalCoverage":false
+    },
+    "Driver":
+    {
+        "Age":21,
+        "Gender":"Male",
+        "DUI":true,
+        "NumberOfAccident":1,
+        "Violation":1,
+        "TrainingCertification":false,
+        "ClientType":null,
+        "Married":false,
+        "Location":"CA"
+    }
+}

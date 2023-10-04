@@ -1,4 +1,4 @@
-<DecisionTable name="AutoDiscounts">
+<DecisionTable name="AutoDiscounts" processAll="True">
   <Declaration>
     <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />

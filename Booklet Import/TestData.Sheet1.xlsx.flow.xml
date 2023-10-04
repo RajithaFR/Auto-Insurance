@@ -1,0 +1,41 @@
+<Flow name="BookletFlowxlsx TestData.xlsx">
+  <Declaration>
+    <Define name="Results" direction="Out" />
+  </Declaration>
+  <Nodes>
+    <Start name="StartActivity">
+      <Transition name="Transition14" to="LoadxlsxActivity" />
+    </Start>
+    <End name="EndActivity" />
+    <Activity name="LoadxlsxActivity">
+      <Spreadsheet return="Results" type="xlsx">
+        <DataSource uri="TestData.xlsx" rows="1-3" />
+        <Map>
+  <Add property="AlarmSystem" column="A" type="bool" />
+  <Add property="Driver" column="B" type="bool" />
+  <Add property="Passenger" column="C" type="bool" />
+  <Add property="SidePanel" column="D" type="bool" />
+  <Add property="Price" column="E" type="int" />
+  <Add property="HighTheftProbabilityAuto" column="F" type="bool" />
+  <Add property="Convertible" column="G" type="bool" />
+  <Add property="HasRollBar" column="H" type="bool" />
+  <Add property="ModelYear" column="I" type="short" />
+  <Add property="CarType" column="J" type="string" />
+  <Add property="UninsuredMtoristCoverage" column="K" type="bool" />
+  <Add property="HasMedicalCoverage" column="L" type="bool" />
+  <Add property="Age" column="M" type="byte" />
+  <Add property="Gender" column="N" type="string" />
+  <Add property="DUI" column="O" type="bool" />
+  <Add property="NumberOfAccident" column="P" type="byte" />
+  <Add property="Violation" column="Q" type="byte" />
+  <Add property="TrainingCertification" column="R" type="bool" />
+  <Add property="ClientType" column="S" type="string" />
+  <Add property="Married" column="T" type="bool" />
+  <Add property="Location" column="U" type="string" />
+  <Add property="Outcome" column="V" type="string" />
+</Map>
+      </Spreadsheet>
+      <Transition name="Transition15" to="EndActivity" />
+    </Activity>
+  </Nodes>
+</Flow>

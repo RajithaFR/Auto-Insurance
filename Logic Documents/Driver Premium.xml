@@ -8,7 +8,7 @@
   <Columns>
     <Condition name="DriverAgeCategory" expression="Eligibility.AgeEligibilityCategory" />
     <Condition name="Married" expression="Driver.Married" />
-    <Condition name="Location" expression="Driver.Location" />
+    <Condition name="Location" expression="Driver.Location|in(&quot;CA&quot;,&quot;NY&quot;,&quot;VA&quot;)" />
     <Condition name="DrivingRecordCategory" expression="Eligibility.DrivingRecordCategory" />
     <Condition name="Number of Accidents" expression="Driver.NumberOfAccident" />
     <Action name="Auto &#xA;Premium" expression="Premium.AutoPremium" />
@@ -25,7 +25,7 @@
     <Row>
       <Value>Young Driver</Value>
       <Value>true</Value>
-      <Value>in{CA,NY,VA}</Value>
+      <Value>true</Value>
       <Value></Value>
       <Value></Value>
       <Value> +=  700</Value>
@@ -33,7 +33,7 @@
     <Row>
       <Value>Young Driver</Value>
       <Value>false</Value>
-      <Value>in{CA,NY,VA}</Value>
+      <Value>true</Value>
       <Value></Value>
       <Value></Value>
       <Value> +=  720</Value>
@@ -41,7 +41,7 @@
     <Row>
       <Value>Young Driver</Value>
       <Value></Value>
-      <Value>not: in{CA,NY,VA}</Value>
+      <Value>false</Value>
       <Value></Value>
       <Value></Value>
       <Value> +=  300</Value>
@@ -49,7 +49,7 @@
     <Row>
       <Value>Senior Driver</Value>
       <Value></Value>
-      <Value>in{CA,NY,VA}</Value>
+      <Value>true</Value>
       <Value></Value>
       <Value></Value>
       <Value> += 500</Value>
@@ -57,7 +57,7 @@
     <Row>
       <Value>Senior Driver</Value>
       <Value></Value>
-      <Value>not: in{CA,NY,VA}</Value>
+      <Value>false</Value>
       <Value></Value>
       <Value></Value>
       <Value> += 200</Value>

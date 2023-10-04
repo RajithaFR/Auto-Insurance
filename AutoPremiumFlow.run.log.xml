@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecTemplate>
+  <Record date="2023-10-04T02:55:09.0357702Z" file="AutoPremiumFlow.xml" title="Manual Underwriting" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\08d6409a-5483-42ae-99e2-0233f12bebaa.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-10-04T03:02:05.1306274Z" file="AutoPremiumFlow.xml" title="Eligibility Score &lt;100" description="Directly go to Calculate Auto Premium">
+    <Run providerType="JSONComposer" file=".RunTemplate\27ef11a7-b937-4776-a76d-e621d0b4c05f.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-10-04T03:07:57.2752695Z" file="AutoPremiumFlow.xml" title="Invalid Input Data" description="Car Type missing">
+    <Run providerType="JSONComposer" file=".RunTemplate\7867347c-8616-4d40-90ed-c61a17a836da.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-10-04T03:13:17.8926014Z" file="AutoPremiumFlow.xml" title="Decline" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\5b989cce-a457-4cd6-aaec-de112f3c422e.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+</ExecTemplate>

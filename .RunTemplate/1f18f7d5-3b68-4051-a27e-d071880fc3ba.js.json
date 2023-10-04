@@ -1,0 +1,19 @@
+{
+    "Car":
+    {
+    "AlarmSystem" : false,
+    "Airbag" : {
+        "Driver" : true,
+        "Passenger" : false,
+        "SidePanel" : false
+    },
+    "Price" : 74000,
+    "HighTheftProbabilityAuto" : false,
+    "Convertible" : true,
+    "HasRollBar" : false,
+    "ModelYear" : 2021,
+    "CarType" : "Compact",
+    "UninsuredMtoristCoverage" : false,
+    "HasMedicalCoverage" : false
+}
+}

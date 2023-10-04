@@ -1,9 +1,9 @@
 <DRD name="Calculate Discount">
   <Nodes>
-    <Decision name="Decision170" uri="AutoDiscounts.xml" contextMode="Shared" type="Table">
+    <Decision name="Decision170" uri="Logic Documents\AutoDiscounts.xml" contextMode="Shared" type="Table">
       <Transition name="Transition60" to="Decision59" relationType="Information" />
     </Decision>
-    <Decision name="Decision171" uri="Market Segment Discount.xml" contextMode="Shared" type="Table" />
+    <Decision name="Decision171" uri="Logic Documents\Market Segment Discount.xml" contextMode="Shared" type="Table" />
     <InputData name="Premium" isOutput="True" type="Premium" assembly="Glossaries\Concept.xml">
       <Transition name="Transition62" to="Decision171" relationType="Information" />
     </InputData>

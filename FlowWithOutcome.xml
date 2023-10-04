@@ -1,10 +1,11 @@
-<Workflow name="Workflow">
+<Flow name="FlowWithOutcome">
   <Declaration>
     <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Local" />
     <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
     <Define name="IsValid" type="bool" direction="Local" />
+    <Define name="Outcome" direction="In" />
   </Declaration>
   <Nodes>
     <Start name="Start231">
@@ -17,18 +18,10 @@
       <Transition name="Transition235" to="Decision234" />
     </Activity>
     <Decision name="Decision234">
-      <Transition name="Transition237" to="HumanTask236" />
       <Transition name="Transition239" to="Activity238" condition="Eligibility.EligibilityScore &gt; 250" />
       <Transition name="Transition293" to="Activity292" condition="Eligibility.EligibilityScore &lt; 100" />
+      <Transition name="Transition51" to="Activity50" />
     </Decision>
-    <Task name="HumanTask236" title="Underwriting Manager" type="Single">
-      <Expectations>
-        <Outcome name="Eligible" description="client is eligible for auto insurance" />
-        <Outcome name="Not Eligible" description="client is ineligible for auto insurance" />
-      </Expectations>
-      <Transition name="Transition294" to="Activity292" outcome="Eligible" />
-      <Transition name="Transition295" to="Activity238" outcome="Not Eligible" />
-    </Task>
     <Activity name="Activity238">
       <Notification>
         <Notice message="This client is not eligible for auto insurance." type="Warning" />
@@ -59,5 +52,9 @@
       <Transition name="Transition46" to="Terminate45" />
     </Activity>
     <Terminate name="Terminate45" />
+    <Activity name="Activity50">
+      <Transition name="Transition52" to="Activity292" condition="Outcome==&quot;Eligible&quot;" />
+      <Transition name="Transition53" to="Activity238" />
+    </Activity>
   </Nodes>
-</Workflow>
+</Flow>

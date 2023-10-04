@@ -1,0 +1,46 @@
+<Flow name="TestBookletFlow">
+  <Declaration>
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="Local" />
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="Local" />
+    <Define name="Input" direction="In" />
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
+  </Declaration>
+  <Nodes>
+    <Start name="Start2">
+      <Transition name="Transition40" to="Activity39" />
+    </Start>
+    <End name="End73" />
+    <Activity name="Activity39">
+      <MultiExpression>
+        <Var value="Car.AlarmSystem=Input.AlarmSystem" />
+        <Var value="Car.Airbag.Driver=Input.Driver" />
+        <Var value="Car.Airbag.Passenger=Input.Passenger" />
+        <Var value="Car.Airbag.SidePanel=Input.SidePanel" />
+        <Var value="Car.Price=Input.Price" />
+        <Var value="Car.HighTheftProbabilityAuto=Input.HighTheftProbabilityAuto" />
+        <Var value="Car.Convertible=Input.Convertible" />
+        <Var value="Car.HasRollBar=Input.HasRollBar" />
+        <Var value="Car.ModelYear=Input.ModelYear" />
+        <Var value="Car.CarType=Input.CarType" />
+        <Var value="Car.UninsuredMtoristCoverage=Input.UninsuredMtoristCoverage" />
+        <Var value="Car.HasMedicalCoverage=Input.HasMedicalCoverage" />
+        <Var value="Driver.Age=Input.Age" />
+        <Var value="Driver.Gender=Input.Gender" />
+        <Var value="Driver.DUI=Input.DUI" />
+        <Var value="Driver.NumberOfAccident=Input.NumberOfAccident" />
+        <Var value="Driver.Violation=Input.Violation" />
+        <Var value="Driver.TrainingCertification= Input.TrainingCertification" />
+        <Var value="Driver.ClientType=Input.ClientType" />
+        <Var value="Driver.Married=Input.Married" />
+        <Var value="Driver.Location=Input.Location" />
+      </MultiExpression>
+      <Transition name="Transition407" to="Activity406" />
+    </Activity>
+    <Activity name="Activity406">
+      <CallFlow contextMode="Shared">
+        <FlowSource uri="AutoPremiumFlow.xml" />
+      </CallFlow>
+      <Transition name="Transition408" to="End73" />
+    </Activity>
+  </Nodes>
+</Flow>

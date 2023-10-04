@@ -1,9 +1,11 @@
 <Designer>
   <Project>
-    <Name>Auto Insurance</Name>
-    <Path>C:\Users\RajithaAbeygunawardh\Documents\FlexRule\Projects\Auto Insurance</Path>
+    <Name>AutoInsurance</Name>
+    <Path>C:\Users\RajithaAbeygunawardh\Documents\FlexRule\Projects\AutoInsurance</Path>
     <Description></Description>
+    <Folders />
   </Project>
+  <Files />
   <References />
   <ProjectProviders>
     <Builders>
@@ -44,18 +46,4 @@
   <Extensions />
   <Functions />
   <Environments />
-  <Debugger>
-    <Runtime path="C:\Users\RajithaAbeygunawardh\Documents\.flexrule\9.1.131" />
-    <License path="" />
-  </Debugger>
-  <Metadata />
-  <TreeDocument>
-    <FollowIdent value="True" />
-    <ShowAttribute value="False" />
-    <ShowDescription value="False" />
-    <ShowType value="True" />
-    <ShowValue value="True" />
-    <ShowTreeLines value="True" />
-    <ShowGridLines value="True" />
-  </TreeDocument>
 </Designer>

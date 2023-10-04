@@ -1,0 +1,32 @@
+{
+    "Car":
+    {
+        "AlarmSystem":false,
+        "Airbag":
+        {
+            "Driver":false,
+            "Passenger":false,
+            "SidePanel":false
+        },
+        "Price":25000,
+        "HighTheftProbabilityAuto":false,
+        "Convertible":false,
+        "HasRollBar":false,
+        "ModelYear":0,
+        "CarType":"",
+        "UninsuredMtoristCoverage":false,
+        "HasMedicalCoverage":false
+    },
+    "Driver":
+    {
+        "Age":0,
+        "Gender":null,
+        "DUI":false,
+        "NumberOfAccident":0,
+        "Violation":0,
+        "TrainingCertification":true,
+        "ClientType":"Elite Client",
+        "Married":true,
+        "Location":"CA"
+    }
+}

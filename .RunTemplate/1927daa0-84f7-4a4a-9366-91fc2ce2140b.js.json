@@ -1,0 +1,14 @@
+{
+    "Driver":
+    {
+        "Age":0,
+        "Gender":null,
+        "DUI":false,
+        "NumberOfAccident":0,
+        "Violation":0,
+        "TrainingCertification":false,
+        "ClientID":60215,
+        "Married":false,
+        "Location":null
+    }
+}

@@ -127,7 +127,7 @@
         <Height>10</Height>
       </Size>
       <Location>
-        <X>11.19376</X>
+        <X>12.03334</X>
         <Y>46.52915</Y>
       </Location>
       <Alignment>
@@ -144,7 +144,7 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>11.19376</X>
+      <X>12.03334</X>
       <Y>46.52915</Y>
     </Location>
     <Size>
@@ -165,7 +165,7 @@
         <Height>10</Height>
       </Size>
       <Location>
-        <X>11.19376</X>
+        <X>12.03334</X>
         <Y>62.40415</Y>
       </Location>
       <Alignment>
@@ -182,7 +182,7 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>11.19376</X>
+      <X>12.03334</X>
       <Y>62.40415</Y>
     </Location>
     <Size>
@@ -279,7 +279,7 @@
         <Height>10</Height>
       </Size>
       <Location>
-        <X>11.19376</X>
+        <X>12.03334</X>
         <Y>81.1229</Y>
       </Location>
       <Alignment>
@@ -296,8 +296,47 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>11.19376</X>
+      <X>12.03334</X>
       <Y>81.1229</Y>
+    </Location>
+    <Size>
+      <Width>20</Width>
+      <Height>10</Height>
+    </Size>
+  </NodeInfo>
+  <NodeInfo name="ClientSegment" type="InputData">
+    <Label>
+      <Text>Client
+Segment</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+      <Size>
+        <Width>20</Width>
+        <Height>10</Height>
+      </Size>
+      <Location>
+        <X>107.5479</X>
+        <Y>41.85832</Y>
+      </Location>
+      <Alignment>
+        <Vertical>Center</Vertical>
+        <Horizontal>Center</Horizontal>
+      </Alignment>
+    </Label>
+    <Image></Image>
+    <ImageAlign>Center</ImageAlign>
+    <FillColorFrom>-2572328</FillColorFrom>
+    <FillColorTo>-2572328</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>107.5479</X>
+      <Y>41.85832</Y>
     </Location>
     <Size>
       <Width>20</Width>
@@ -470,12 +509,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>29.86501</X>
-      <Y>54.41398</Y>
+      <X>30.65726</X>
+      <Y>54.44908</Y>
     </Location>
     <Size>
-      <Width>30.67873</Width>
-      <Height>11.27806</Height>
+      <Width>29.88648</Width>
+      <Height>11.16718</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -487,20 +526,20 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>30.16501</X>
-        <Y>54.71398</Y>
+        <X>30.95726</X>
+        <Y>54.74908</Y>
       </Point>
       <Point>
         <X>60.24374</X>
-        <Y>65.39204</Y>
+        <Y>65.31625</Y>
       </Point>
       <Start>
-        <X>30.16501</X>
-        <Y>54.71398</Y>
+        <X>30.95726</X>
+        <Y>54.74908</Y>
       </Start>
       <End>
         <X>60.24374</X>
-        <Y>65.39204</Y>
+        <Y>65.31625</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -520,12 +559,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>30.86851</X>
-      <Y>67.61015</Y>
+      <X>31.67985</X>
+      <Y>67.61684</Y>
     </Location>
     <Size>
-      <Width>29.67523</Width>
-      <Height>2.074471</Height>
+      <Width>28.86389</Width>
+      <Height>2.056915</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -537,20 +576,20 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>31.16851</X>
-        <Y>67.91015</Y>
+        <X>31.97985</X>
+        <Y>67.91685</Y>
       </Point>
       <Point>
         <X>60.24374</X>
-        <Y>69.38461</Y>
+        <Y>69.37376</Y>
       </Point>
       <Start>
-        <X>31.16851</X>
-        <Y>67.91015</Y>
+        <X>31.97985</X>
+        <Y>67.91685</Y>
       </Start>
       <End>
         <X>60.24374</X>
-        <Y>69.38461</Y>
+        <Y>69.37376</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -570,7 +609,7 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>73.06457</X>
+      <X>73.06458</X>
       <Y>31.65416</Y>
     </Location>
     <Size>
@@ -587,19 +626,19 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>40.86041</Y>
       </Point>
       <Point>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>31.95416</Y>
       </Point>
       <Start>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>40.86041</Y>
       </Start>
       <End>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>31.95416</Y>
       </End>
     </Points>
@@ -620,12 +659,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>30.05213</X>
-      <Y>73.79121</Y>
+      <X>30.84789</X>
+      <Y>73.85804</Y>
     </Location>
     <Size>
-      <Width>30.49161</Width>
-      <Height>9.806648</Height>
+      <Width>29.69585</Width>
+      <Height>9.710815</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -637,20 +676,70 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>30.35213</X>
-        <Y>83.29785</Y>
+        <X>31.14789</X>
+        <Y>83.26885</Y>
       </Point>
       <Point>
         <X>60.24374</X>
-        <Y>74.09121</Y>
+        <Y>74.15804</Y>
       </Point>
       <Start>
-        <X>30.35213</X>
-        <Y>83.29785</Y>
+        <X>31.14789</X>
+        <Y>83.26885</Y>
       </Start>
       <End>
         <X>60.24374</X>
-        <Y>74.09121</Y>
+        <Y>74.15804</Y>
+      </End>
+    </Points>
+  </NodeInfo>
+  <NodeInfo name="Transition437" type="Transition">
+    <Label>
+      <Text></Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-9868951</FillColorFrom>
+    <FillColorTo>-9868951</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>85.94165</X>
+      <Y>46.55832</Y>
+    </Location>
+    <Size>
+      <Width>21.92426</Width>
+      <Height>0.6000099</Height>
+    </Size>
+    <Shape>Polyline</Shape>
+    <SegmentCount>1</SegmentCount>
+    <Anchors>
+      <Origin>-1</Origin>
+      <Destination>-1</Destination>
+    </Anchors>
+    <Head>Triangle</Head>
+    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
+    <Points>
+      <Point>
+        <X>107.5659</X>
+        <Y>46.85832</Y>
+      </Point>
+      <Point>
+        <X>86.24165</X>
+        <Y>46.85833</Y>
+      </Point>
+      <Start>
+        <X>107.5659</X>
+        <Y>46.85832</Y>
+      </Start>
+      <End>
+        <X>86.24165</X>
+        <Y>46.85833</Y>
       </End>
     </Points>
   </NodeInfo>

@@ -16,7 +16,7 @@
     <Decision name="Decision59" expression="Premium.AutoPremium= Premium.AutoPremium * (1 - Premium.AutoPremiumDiscount)">
       <Transition name="Transition61" to="Decision171" relationType="Information" />
     </Decision>
-    <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
+    <InputData name="ClientSegment" isOutput="False" type="string">
       <Transition name="Transition133" to="Decision171" relationType="Information" />
     </InputData>
   </Nodes>

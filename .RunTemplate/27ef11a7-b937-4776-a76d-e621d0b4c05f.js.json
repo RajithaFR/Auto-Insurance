@@ -23,7 +23,7 @@
     "DUI" : false,
     "NumberOfAccident" : 2,
     "Violation" : 0,
-    "ClientType" : "Preferred Client",
+    "ClientID" : 60215,
     "TainingCertification" : false,
     "Married" : true,
     "Location" : "CA"

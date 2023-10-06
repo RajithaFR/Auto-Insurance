@@ -5,6 +5,7 @@
     <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
     <Define name="IsValid" type="bool" direction="Local" />
+    <Define name="ClientSegment" type="string" direction="Local" />
   </Declaration>
   <Nodes>
     <Start name="Start231">
@@ -41,8 +42,8 @@
         <Fact name="Car" value="Car" />
         <Fact name="Driver" value="Driver" />
       </Validator>
-      <Transition name="Transition44" to="Activity232" condition="IsValid" />
       <Transition name="Transition46" to="Terminate45" />
+      <Transition name="Transition58" to="Activity55" condition="IsValid" />
     </Activity>
     <Terminate name="Terminate45" />
     <Terminate name="Terminate162" />
@@ -52,8 +53,11 @@
       </Notification>
       <Transition name="Transition165" to="Terminate162" />
     </Activity>
-    <Activity name="Activity454">
-      <Database type="MsSql" />
+    <Activity name="Activity55" skip="Driver.ClientID is empty or Driver.ClientID is null or Driver.ClientId is 0">
+      <CallDrd contextMode="Shared">
+        <DrdSource uri="Client Segmentation\Client Segmentation.xml" />
+      </CallDrd>
+      <Transition name="Transition57" to="Activity232" />
     </Activity>
   </Nodes>
 </Flow>

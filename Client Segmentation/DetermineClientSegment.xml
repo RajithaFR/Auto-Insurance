@@ -1,0 +1,37 @@
+<DecisionTable name="DetermineClientSegment" processAll="False">
+  <Declaration>
+    <Define name="Driver" direction="In" />
+    <Define name="ClientProfile" type="Client" assembly="Glossaries\Concept.xml" direction="In" />
+    <Define name="ClientSegment" type="string" direction="Out" />
+  </Declaration>
+  <Columns>
+    <Condition name="Has Vehicle Insurance?" expression="ClientProfile|any(x,x.Policy|startsWith('v-'))" />
+    <Condition name="Has Life Insurance?" expression="ClientProfile|any(x,x.Policy|startsWith('h-'))" />
+    <Condition name="Has Retirement Insurance?" expression="ClientProfile|any(x,x.Policy|startsWith('r-'))" />
+    <Condition name="Falls within UServ’s top 1% clients based" expression="TopUServClients|any(x,x.ClientId==Driver.ClientID)" />
+    <Action name="Client Segment" expression="ClientSegment" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>true</Value>
+      <Value>Elite Client</Value>
+    </Row>
+    <Row>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value>true</Value>
+      <Value></Value>
+      <Value>Preferred Client</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value></Value>
+      <Value>New Client</Value>
+    </Row>
+  </Data>
+</DecisionTable>

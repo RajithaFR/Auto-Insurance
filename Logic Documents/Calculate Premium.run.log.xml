@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ExecTemplate>
-  <Record date="2023-10-04T21:36:07.8014682Z" file="Logic Documents\Calculate Premium.xml" title="AutoPremium=472.50" description="Discount=0.15">
-    <Run providerType="JSONComposer" file=".RunTemplate\2acc0e62-5985-4eef-848e-23cefb02267c.js.json" />
-    <Options input="1" target="0" logic="" />
-  </Record>
-  <Record date="2023-10-04T21:51:12.0413554Z" file="Logic Documents\Calculate Premium.xml" title="AutoPremium=985" description="Discount=0.1">
-    <Run providerType="JSONComposer" file=".RunTemplate\24e31dcd-7da2-4769-a806-093dfea8ece7.js.json" />
+  <Record date="2023-10-06T04:35:09.3387233Z" file="Logic Documents\Calculate Premium.xml" title="AutoPremium=472.50" description="Discount=15%">
+    <Run providerType="JSONComposer" file=".RunTemplate\7b050a81-32de-4139-96fe-4a908ed137a4.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>
 </ExecTemplate>

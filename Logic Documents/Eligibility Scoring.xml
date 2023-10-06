@@ -2,6 +2,7 @@
   <Declaration>
     <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="InOut" />
+    <Define name="ClientSegment" type="string" direction="In" />
   </Declaration>
   <Columns>
     <Condition name="Auto Eligibility" expression="Eligibility.AutoEligibility" />
@@ -9,7 +10,7 @@
     <Condition name="Age Eligibility Category" expression="Eligibility.AgeEligibilityCategory" />
     <Condition name="Training Certification" expression="Driver.TrainingCertification" />
     <Condition name="Driving Record Category" expression="Eligibility.DrivingRecordCategory" />
-    <Condition name="Client Type" expression="Driver.ClientType" />
+    <Condition name="Client Type" expression="ClientSegment" />
     <Action name="Eligibility Score" expression="Eligibility.EligibilityScore" />
   </Columns>
   <Data>

@@ -40,7 +40,8 @@
   </NodeInfo>
   <NodeInfo name="Decision171" type="Decision">
     <Label>
-      <Text>Market Segment Discount</Text>
+      <Text>Client
+Segment Discount</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
@@ -228,9 +229,10 @@
       <Height>12.525</Height>
     </Size>
   </NodeInfo>
-  <NodeInfo name="Driver" type="InputData">
+  <NodeInfo name="ClientSegment" type="InputData">
     <Label>
-      <Text>Driver</Text>
+      <Text>Client
+Segment</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>

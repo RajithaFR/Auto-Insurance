@@ -25,7 +25,7 @@
         "NumberOfAccident":1,
         "Violation":0,
         "TrainingCertification":true,
-        "ClientType":"Preferred Client",
+        "ClientID":60215,
         "Married":true,
         "Location":"CA"
     }

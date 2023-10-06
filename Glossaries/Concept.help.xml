@@ -199,7 +199,57 @@
     </Size>
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition432" type="Transition">
+  <NodeInfo name="Client" type="Fact">
+    <Label>
+      <Text>Client</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-7876885</FillColorFrom>
+    <FillColorTo>-7876885</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>270.9395</X>
+      <Y>3.975016</Y>
+    </Location>
+    <Size>
+      <Width>71.43747</Width>
+      <Height>52.65208</Height>
+    </Size>
+    <Description></Description>
+  </NodeInfo>
+  <NodeInfo name="ClientSegment" type="Option">
+    <Label>
+      <Text>ClientSegment</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-329006</FillColorFrom>
+    <FillColorTo>-329006</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>368.5707</X>
+      <Y>13.23543</Y>
+    </Location>
+    <Size>
+      <Width>41.90625</Width>
+      <Height>21.96041</Height>
+    </Size>
+    <Description></Description>
+  </NodeInfo>
+  <NodeInfo name="Transition530" type="Transition">
     <Label>
       <Text>TheftRating</Text>
       <Font>
@@ -219,7 +269,7 @@
       <Y>28.675</Y>
     </Location>
     <Size>
-      <Width>29.76569</Width>
+      <Width>29.7657</Width>
       <Height>42.87915</Height>
     </Size>
     <Shape>Polyline</Shape>
@@ -251,7 +301,7 @@
     <Fact reference="Eligibility.TheftRating" to="TheftRating" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition433" type="Transition">
+  <NodeInfo name="Transition531" type="Transition">
     <Label>
       <Text>OccupantInjuryRating</Text>
       <Font>
@@ -268,10 +318,10 @@
     </Border>
     <Location>
       <X>147.9937</X>
-      <Y>51.05304</Y>
+      <Y>51.05303</Y>
     </Location>
     <Size>
-      <Width>58.33127</Width>
+      <Width>58.3313</Width>
       <Height>26.50112</Height>
     </Size>
     <Shape>Polyline</Shape>
@@ -303,7 +353,7 @@
     <Fact reference="Eligibility.OccupantInjuryRating" to="InjuryRate" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition434" type="Transition">
+  <NodeInfo name="Transition532" type="Transition">
     <Label>
       <Text>DrivingRecordCategory</Text>
       <Font>
@@ -323,7 +373,7 @@
       <Y>78.71954</Y>
     </Location>
     <Size>
-      <Width>63.43144</Width>
+      <Width>63.4315</Width>
       <Height>4.834618</Height>
     </Size>
     <Shape>Polyline</Shape>
@@ -355,7 +405,7 @@
     <Fact reference="Eligibility.DrivingRecordCategory" to="DrivingRecord" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition437" type="Transition">
+  <NodeInfo name="Transition533" type="Transition">
     <Label>
       <Text>AutoEligibility</Text>
       <Font>
@@ -375,8 +425,8 @@
       <Y>88.95415</Y>
     </Location>
     <Size>
-      <Width>59.39799</Width>
-      <Height>12.80935</Height>
+      <Width>59.39801</Width>
+      <Height>12.80936</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -407,7 +457,7 @@
     <Fact reference="Eligibility.AutoEligibility" to="AutoEligibility" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition438" type="Transition">
+  <NodeInfo name="Transition534" type="Transition">
     <Label>
       <Text>AgeCategory</Text>
       <Font>
@@ -427,8 +477,8 @@
       <Y>94.95415</Y>
     </Location>
     <Size>
-      <Width>57.37334</Width>
-      <Height>33.67497</Height>
+      <Width>57.37331</Width>
+      <Height>33.67496</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -459,7 +509,7 @@
     <Fact reference="Eligibility.AgeCategory" to="AgeCategory" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition441" type="Transition">
+  <NodeInfo name="Transition535" type="Transition">
     <Label>
       <Text>AgeEligibilityCategory</Text>
       <Font>
@@ -476,11 +526,11 @@
     </Border>
     <Location>
       <X>147.9937</X>
-      <Y>100.9541</Y>
+      <Y>100.9542</Y>
     </Location>
     <Size>
-      <Width>31.66229</Width>
-      <Height>55.19168</Height>
+      <Width>31.66231</Width>
+      <Height>55.1916</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -509,6 +559,58 @@
       </End>
     </Points>
     <Fact reference="Eligibility.AgeEligibilityCategory" to="AgeEligibilityCategory" />
+    <Description></Description>
+  </NodeInfo>
+  <NodeInfo name="Transition536" type="Transition">
+    <Label>
+      <Text>ClientSegment</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-9868951</FillColorFrom>
+    <FillColorTo>-9868951</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>342.077</X>
+      <Y>24.69754</Y>
+    </Location>
+    <Size>
+      <Width>26.79367</Width>
+      <Height>1.577471</Height>
+    </Size>
+    <Shape>Polyline</Shape>
+    <SegmentCount>1</SegmentCount>
+    <Anchors>
+      <Origin>-1</Origin>
+      <Destination>-1</Destination>
+    </Anchors>
+    <Base>Rhombus</Base>
+    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
+    <Points>
+      <Point>
+        <X>342.377</X>
+        <Y>25.97502</Y>
+      </Point>
+      <Point>
+        <X>368.5707</X>
+        <Y>24.99754</Y>
+      </Point>
+      <Start>
+        <X>342.377</X>
+        <Y>25.97502</Y>
+      </Start>
+      <End>
+        <X>368.5707</X>
+        <Y>24.99754</Y>
+      </End>
+    </Points>
+    <Fact reference="Client.ClientSegment" to="ClientSegment" />
     <Description></Description>
   </NodeInfo>
 </Nodes>

@@ -14,7 +14,7 @@
       </Size>
       <Location>
         <X>140.6718</X>
-        <Y>35.14583</Y>
+        <Y>29.96041</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -31,7 +31,7 @@
     </Border>
     <Location>
       <X>136.7458</X>
-      <Y>35.14583</Y>
+      <Y>29.96041</Y>
     </Location>
     <Size>
       <Width>33.42708</Width>
@@ -304,6 +304,44 @@
       <Height>11.46667</Height>
     </Size>
   </NodeInfo>
+  <NodeInfo name="ClientSegment" type="InputData">
+    <Label>
+      <Text>Client Segment</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+      <Size>
+        <Width>20</Width>
+        <Height>10</Height>
+      </Size>
+      <Location>
+        <X>52.38958</X>
+        <Y>31.22291</Y>
+      </Location>
+      <Alignment>
+        <Vertical>Center</Vertical>
+        <Horizontal>Center</Horizontal>
+      </Alignment>
+    </Label>
+    <Image></Image>
+    <ImageAlign>Center</ImageAlign>
+    <FillColorFrom>-2572328</FillColorFrom>
+    <FillColorTo>-2572328</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>52.38958</X>
+      <Y>31.22291</Y>
+    </Location>
+    <Size>
+      <Width>20</Width>
+      <Height>10</Height>
+    </Size>
+  </NodeInfo>
   <NodeInfo name="Transition113" type="Transition">
     <Label>
       <Text></Text>
@@ -320,12 +358,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>123.7574</X>
-      <Y>47.37083</Y>
+      <X>122.1494</X>
+      <Y>42.1854</Y>
     </Location>
     <Size>
-      <Width>19.55901</Width>
-      <Height>11.99375</Height>
+      <Width>23.108</Width>
+      <Height>17.17918</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -337,20 +375,20 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>124.0574</X>
+        <X>122.4494</X>
         <Y>59.06458</Y>
       </Point>
       <Point>
-        <X>143.0164</X>
-        <Y>47.67083</Y>
+        <X>144.9574</X>
+        <Y>42.4854</Y>
       </Point>
       <Start>
-        <X>124.0574</X>
+        <X>122.4494</X>
         <Y>59.06458</Y>
       </Start>
       <End>
-        <X>143.0164</X>
-        <Y>47.67083</Y>
+        <X>144.9574</X>
+        <Y>42.4854</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -370,12 +408,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>164.6361</X>
-      <Y>47.37083</Y>
+      <X>162.5421</X>
+      <Y>42.1854</Y>
     </Location>
     <Size>
-      <Width>21.54491</Width>
-      <Height>11.99375</Height>
+      <Width>25.4409</Width>
+      <Height>17.17918</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -387,20 +425,20 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>185.881</X>
+        <X>187.683</X>
         <Y>59.06458</Y>
       </Point>
       <Point>
-        <X>164.9361</X>
-        <Y>47.67083</Y>
+        <X>162.8421</X>
+        <Y>42.4854</Y>
       </Point>
       <Start>
-        <X>185.881</X>
+        <X>187.683</X>
         <Y>59.06458</Y>
       </Start>
       <End>
-        <X>164.9361</X>
-        <Y>47.67083</Y>
+        <X>162.8421</X>
+        <Y>42.4854</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -651,6 +689,56 @@
       <End>
         <X>114.5135</X>
         <Y>70.53125</Y>
+      </End>
+    </Points>
+  </NodeInfo>
+  <NodeInfo name="Transition85" type="Transition">
+    <Label>
+      <Text></Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-9868951</FillColorFrom>
+    <FillColorTo>-9868951</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>72.13283</X>
+      <Y>35.92291</Y>
+    </Location>
+    <Size>
+      <Width>64.91298</Width>
+      <Height>0.5999985</Height>
+    </Size>
+    <Shape>Polyline</Shape>
+    <SegmentCount>1</SegmentCount>
+    <Anchors>
+      <Origin>-1</Origin>
+      <Destination>-1</Destination>
+    </Anchors>
+    <Head>Triangle</Head>
+    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
+    <Points>
+      <Point>
+        <X>72.43283</X>
+        <Y>36.22291</Y>
+      </Point>
+      <Point>
+        <X>136.7458</X>
+        <Y>36.22291</Y>
+      </Point>
+      <Start>
+        <X>72.43283</X>
+        <Y>36.22291</Y>
+      </Start>
+      <End>
+        <X>136.7458</X>
+        <Y>36.22291</Y>
       </End>
     </Points>
   </NodeInfo>

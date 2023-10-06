@@ -19,8 +19,8 @@
       <Y>0.2624989</Y>
     </Location>
     <Size>
-      <Width>64.55832</Width>
-      <Height>70.11458</Height>
+      <Width>69.72083</Width>
+      <Height>78.45417</Height>
     </Size>
     <Description></Description>
   </NodeInfo>
@@ -124,31 +124,6 @@
     </Size>
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="ClientType" type="Option">
-    <Label>
-      <Text>ClientType</Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-329006</FillColorFrom>
-    <FillColorTo>-329006</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>279.796</X>
-      <Y>26.19374</Y>
-    </Location>
-    <Size>
-      <Width>40.21667</Width>
-      <Height>22.225</Height>
-    </Size>
-    <Description></Description>
-  </NodeInfo>
   <NodeInfo name="Location" type="Option">
     <Label>
       <Text>Location</Text>
@@ -174,7 +149,7 @@
     </Size>
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition61" type="Transition">
+  <NodeInfo name="Transition105" type="Transition">
     <Label>
       <Text>Airbag</Text>
       <Font>
@@ -190,12 +165,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>66.93123</X>
-      <Y>14.50419</Y>
+      <X>72.09375</X>
+      <Y>14.61745</Y>
     </Location>
     <Size>
-      <Width>30.76253</Width>
-      <Height>2.058312</Height>
+      <Width>25.60001</Width>
+      <Height>1.94505</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -207,26 +182,26 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>67.23123</X>
+        <X>72.39375</X>
         <Y>16.2625</Y>
       </Point>
       <Point>
         <X>97.39375</X>
-        <Y>14.80419</Y>
+        <Y>14.91745</Y>
       </Point>
       <Start>
-        <X>67.23123</X>
+        <X>72.39375</X>
         <Y>16.2625</Y>
       </Start>
       <End>
         <X>97.39375</X>
-        <Y>14.80419</Y>
+        <Y>14.91745</Y>
       </End>
     </Points>
     <Fact reference="Car.Airbag" to="Airbags" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition62" type="Transition">
+  <NodeInfo name="Transition106" type="Transition">
     <Label>
       <Text>CarType</Text>
       <Font>
@@ -242,12 +217,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>66.93123</X>
+      <X>72.09375</X>
       <Y>51.9625</Y>
     </Location>
     <Size>
-      <Width>42.93337</Width>
-      <Height>1.21838</Height>
+      <Width>37.77085</Width>
+      <Height>1.196697</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -259,26 +234,26 @@
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>67.23123</X>
+        <X>72.39375</X>
         <Y>52.2625</Y>
       </Point>
       <Point>
         <X>109.5646</X>
-        <Y>52.88088</Y>
+        <Y>52.8592</Y>
       </Point>
       <Start>
-        <X>67.23123</X>
+        <X>72.39375</X>
         <Y>52.2625</Y>
       </Start>
       <End>
         <X>109.5646</X>
-        <Y>52.88088</Y>
+        <Y>52.8592</Y>
       </End>
     </Points>
     <Fact reference="Car.CarType" to="CarType" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition63" type="Transition">
+  <NodeInfo name="Transition107" type="Transition">
     <Label>
       <Text>Gender</Text>
       <Font>
@@ -298,8 +273,8 @@
       <Y>11.74725</Y>
     </Location>
     <Size>
-      <Width>34.57938</Width>
-      <Height>4.81525</Height>
+      <Width>34.57939</Width>
+      <Height>4.815248</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -330,59 +305,7 @@
     <Fact reference="Driver.Gender" to="Gender" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition64" type="Transition">
-    <Label>
-      <Text>ClientType</Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-9868951</FillColorFrom>
-    <FillColorTo>-9868951</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>245.2666</X>
-      <Y>40.32062</Y>
-    </Location>
-    <Size>
-      <Width>34.82938</Width>
-      <Height>6.241879</Height>
-    </Size>
-    <Shape>Polyline</Shape>
-    <SegmentCount>1</SegmentCount>
-    <Anchors>
-      <Origin>-1</Origin>
-      <Destination>-1</Destination>
-    </Anchors>
-    <Base>Rhombus</Base>
-    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
-    <Points>
-      <Point>
-        <X>245.5666</X>
-        <Y>46.2625</Y>
-      </Point>
-      <Point>
-        <X>279.796</X>
-        <Y>40.62062</Y>
-      </Point>
-      <Start>
-        <X>245.5666</X>
-        <Y>46.2625</Y>
-      </Start>
-      <End>
-        <X>279.796</X>
-        <Y>40.62062</Y>
-      </End>
-    </Points>
-    <Fact reference="Driver.ClientType" to="ClientType" />
-    <Description></Description>
-  </NodeInfo>
-  <NodeInfo name="Transition65" type="Transition">
+  <NodeInfo name="Transition108" type="Transition">
     <Label>
       <Text>Location</Text>
       <Font>
@@ -402,7 +325,7 @@
       <Y>57.9625</Y>
     </Location>
     <Size>
-      <Width>34.84387</Width>
+      <Width>34.84389</Width>
       <Height>15.09751</Height>
     </Size>
     <Shape>Polyline</Shape>

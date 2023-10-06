@@ -11,7 +11,11 @@
     <Property name="HighTheftProbabilityAuto" type="bool" />
     <Property name="Convertible" type="bool" />
     <Property name="HasRollBar" type="bool" />
-    <Property name="ModelYear" type="int" />
+    <Property name="ModelYear" type="int">
+      <Constraints>
+        <Add type="NotNullOrEmpty" message="ModelYear cannot be null or empty." />
+      </Constraints>
+    </Property>
     <Property name="CarType" fact="CarType">
       <Constraints processAll="True">
         <Add type="NotNullOrEmpty" message="CarType cannot be null or empty." />
@@ -34,6 +38,7 @@
     <Property name="Age" type="int">
       <Constraints processAll="True">
         <Add type="Required" message="Age is required." />
+        <Add type="NotNullOrEmpty" message="Age cannot be null or empty." />
       </Constraints>
     </Property>
     <Property name="Gender" fact="Gender">
@@ -45,7 +50,11 @@
     <Property name="NumberOfAccident" type="int" />
     <Property name="Violation" type="int" />
     <Property name="TrainingCertification" type="bool" />
-    <Property name="ClientType" fact="ClientType" />
+    <Property name="ClientID" type="int">
+      <Constraints processAll="True">
+        <Add type="CheckType" message="ClientID should be an Integer value" />
+      </Constraints>
+    </Property>
     <Property name="Married" type="bool" />
     <Property name="Location" fact="Location">
       <Constraints processAll="True">
@@ -56,10 +65,6 @@
   <Option name="Gender">
     <Property name="Female" />
     <Property name="Male" />
-  </Option>
-  <Option name="ClientType">
-    <Property name="Elite Client" />
-    <Property name="Preferred Client" />
   </Option>
   <Option name="Location">
     <Property name="GE" />

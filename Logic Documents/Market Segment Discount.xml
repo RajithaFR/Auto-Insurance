@@ -1,10 +1,10 @@
 <DecisionTable name="Market Segment Discount" processAll="False">
   <Declaration>
-    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="ClientSegment" type="string" direction="In" />
     <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
   </Declaration>
   <Columns>
-    <Condition name="Client" expression="Driver.ClientType" />
+    <Condition name="Client" expression="ClientSegment" />
     <Action name="Premium" expression="Premium.AutoPremium" />
   </Columns>
   <Data>

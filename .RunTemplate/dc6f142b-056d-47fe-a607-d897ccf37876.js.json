@@ -1,0 +1,14 @@
+{
+    "Driver":
+    {
+        "Age":65,
+        "Gender":"Male",
+        "DUI":false,
+        "NumberOfAccident":0,
+        "Violation":0,
+        "TrainingCertification":false,
+        "ClientID":49163,
+        "Married":true,
+        "Location":"CA"
+    }
+}

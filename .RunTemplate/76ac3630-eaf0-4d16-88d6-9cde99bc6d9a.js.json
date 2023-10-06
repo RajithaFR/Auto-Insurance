@@ -25,7 +25,7 @@
         "NumberOfAccident":4,
         "Violation":4,
         "TrainingCertification":false,
-        "ClientType":null,
+        "ClientID":,
         "Married":false,
         "Location":"CA"
     },

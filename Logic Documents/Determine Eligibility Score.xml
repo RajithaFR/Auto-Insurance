@@ -22,5 +22,8 @@
     <SubDrd name="SubDrd369" uri="Logic Documents\Determine Rating.xml" contextMode="Shared">
       <Transition name="Transition370" to="Decision111" relationType="Information" />
     </SubDrd>
+    <InputData name="ClientSegment" isOutput="False" type="string">
+      <Transition name="Transition85" to="Decision110" relationType="Information" />
+    </InputData>
   </Nodes>
 </DRD>

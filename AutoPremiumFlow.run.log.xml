@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ExecTemplate>
-  <Record date="2023-10-04T02:55:09.0357702Z" file="AutoPremiumFlow.xml" title="Manual Underwriting" description="">
-    <Run providerType="JSONComposer" file=".RunTemplate\08d6409a-5483-42ae-99e2-0233f12bebaa.js.json" />
-    <Options input="1" target="0" logic="" />
-  </Record>
-  <Record date="2023-10-04T03:02:05.1306274Z" file="AutoPremiumFlow.xml" title="Eligibility Score &lt;100" description="Directly go to Calculate Auto Premium">
+  <Record date="2023-10-04T03:02:05.1306274Z" file="AutoPremiumFlow.xml" title="Eligibility Score &lt;100" description="Directly go to Calculate Auto Premium&#xD;&#xA;Check the Premium for results">
     <Run providerType="JSONComposer" file=".RunTemplate\27ef11a7-b937-4776-a76d-e621d0b4c05f.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>
@@ -14,6 +10,10 @@
   </Record>
   <Record date="2023-10-04T03:13:17.8926014Z" file="AutoPremiumFlow.xml" title="Decline" description="">
     <Run providerType="JSONComposer" file=".RunTemplate\5b989cce-a457-4cd6-aaec-de112f3c422e.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-10-06T04:23:46.0178764Z" file="AutoPremiumFlow.xml" title="Manual Underwriting" description="Eligibility Score is 250">
+    <Run providerType="JSONComposer" file=".RunTemplate\11183cd3-c7d4-4078-bb4d-c7ee8ab223e4.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>
 </ExecTemplate>

@@ -24,9 +24,17 @@
         "DUI":true,
         "NumberOfAccident":5,
         "Violation":6,
-        "ClientType":null,
+        "ClientID":0,
         "TainingCertification":false,
         "Married":false,
         "Location":"CA"
-    }
+    },
+	"Client":
+	{
+    "ClientID" : 60215,
+    "VehicleInsuranceProductID" : "VI100",
+    "LifeInsuranceProductID" : "LI100",
+    "RetirementInsuranceProductID" : "RI100",
+    "Revenue" : 255000
+}
 }

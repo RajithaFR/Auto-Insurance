@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecTemplate>
+  <Record date="2023-10-06T00:04:16.556544Z" file="Client Segmentation\Client Segmentation.xml" title="Preferred Client" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\1927daa0-84f7-4a4a-9366-91fc2ce2140b.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+  <Record date="2023-10-06T04:29:53.225551Z" file="Client Segmentation\Client Segmentation.xml" title="Elite Client">
+    <Run providerType="JSONComposer" file=".RunTemplate\dc6f142b-056d-47fe-a607-d897ccf37876.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+</ExecTemplate>

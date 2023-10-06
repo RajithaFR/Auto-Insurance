@@ -1,0 +1,33 @@
+<DRD name="Client Segmentation">
+  <Declaration>
+    <Define name="ClientProfile" type="Client" assembly="Glossaries\Concept.xml" direction="Local" />
+    <Define name="Clients" direction="Local" />
+    <Define name="ClientOrderByAmount" direction="Local" />
+    <Define name="TopUServClients" direction="Local" />
+  </Declaration>
+  <Nodes>
+    <Decision name="Decision554" expression="ClientProfile =  Clients[ClientId == Driver.ClientID]" skip="Driver.ClientID==&quot;&quot; or null">
+      <Transition name="Transition493" to="Decision555" relationType="Information" />
+    </Decision>
+    <Decision name="Decision555" uri="Client Segmentation\DetermineClientSegment.xml" contextMode="Shared" type="Table" />
+    <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition537" to="Decision555" relationType="Information" />
+    </InputData>
+    <Decision name="Decision490" expression="ClientOrderByAmount = Clients&#xD;&#xA;      |groupBy(x,x.ClientId)&#xD;&#xA;      |select(x, &#xD;&#xA;               { ClientId: x.Key,&#xD;&#xA;                 Total   : x.Amount|sum()&#xD;&#xA;               }&#xD;&#xA;             ) &#xD;&#xA;      |orderBy(x,x.Total DESC)">
+      <Transition name="Transition495" to="Decision494" relationType="Information" />
+    </Decision>
+    <Decision name="Decision494" expression="TopUServClients = ClientOrderByAmount|take( 0.01 * ClientOrderByAmount|count() )">
+      <Transition name="Transition500" to="Decision555" relationType="Information" />
+    </Decision>
+    <BusinessKnowledge name="DBRead">
+      <Events>
+        <Handler event="Before">
+          <Database connection="data source=.\SQLEXPRESS;user id=sa;password=123;initial catalog=Auto-Insurance;Persist Security Info=true" type="MsSql">
+            <SelectList command="select &quot;UServClients&quot;.&quot;ClientId&quot;,&quot;UServClients&quot;.&quot;ProductCode&quot;,&quot;UServClients&quot;.&quot;Policy&quot;,&quot;UServClients&quot;.&quot;BindingDate&quot;,&quot;UServClients&quot;.&quot;Amount&quot;,&quot;UServClients&quot;.&quot;ID&quot; from &quot;dbo&quot;.&quot;UServClients&quot; &quot;UServClients&quot;" return="Clients" multi="True" expando="True" />
+          </Database>
+        </Handler>
+      </Events>
+      <Transition name="Transition253" to="Decision490" relationType="Knowledge" />
+    </BusinessKnowledge>
+  </Nodes>
+</DRD>

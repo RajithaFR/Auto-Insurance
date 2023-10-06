@@ -41,4 +41,17 @@
     <Property name="AutoPremium" type="double" />
     <Property name="AutoPremiumDiscount" type="double" />
   </Fact>
+  <Fact name="Client">
+    <Property name="ClientId" type="int" />
+    <Property name="Amount" type="decimal" />
+    <Property name="ClientSegment" fact="ClientSegment" />
+    <Property name="ProductCode" type="string" />
+    <Property name="Policy" type="string" />
+    <Property name="BindingDate" type="datetime" />
+    <Property name="ID" type="int" />
+  </Fact>
+  <Option name="ClientSegment">
+    <Property name="Preferred Client" />
+    <Property name="Elite Client" />
+  </Option>
 </Concept>

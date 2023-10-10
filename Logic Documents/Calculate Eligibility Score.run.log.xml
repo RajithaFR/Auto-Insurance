@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecTemplate>
+  <Record date="2023-10-06T04:31:45.3999085Z" file="Logic Documents\Calculate Eligibility Score.xml" title="Eligibility Score=150" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\f4a015d6-e2cb-42b6-ad41-48d7a80e6b49.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+</ExecTemplate>

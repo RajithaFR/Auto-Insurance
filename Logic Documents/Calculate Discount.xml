@@ -3,21 +3,18 @@
     <Decision name="Decision170" uri="Logic Documents\AutoDiscounts.xml" contextMode="Shared" type="Table">
       <Transition name="Transition60" to="Decision59" relationType="Information" />
     </Decision>
-    <Decision name="Decision171" uri="Logic Documents\Market Segment Discount.xml" contextMode="Shared" type="Table" />
-    <InputData name="Premium" isOutput="True" type="Premium" assembly="Glossaries\Concept.xml">
-      <Transition name="Transition62" to="Decision171" relationType="Information" />
-    </InputData>
+    <Decision name="Decision171" uri="Logic Documents\Market Segment Discount.xml" contextMode="Shared" type="Table">
+      <Transition name="Transition195" to="Decision59" relationType="Information" />
+    </Decision>
     <InputData name="Car" isOutput="False" type="Car" assembly="Glossaries\InputFact.xml">
-      <Transition name="Transition72" to="Decision171" relationType="Information" />
+      <Transition name="Transition242" to="Decision170" relationType="Information" />
     </InputData>
     <InputData name="Eligibility" isOutput="False" type="Eligibility" assembly="Glossaries\Concept.xml">
-      <Transition name="Transition101" to="Decision171" relationType="Information" />
+      <Transition name="Transition243" to="Decision170" relationType="Information" />
     </InputData>
-    <Decision name="Decision59" expression="Premium.AutoPremium= Premium.AutoPremium * (1 - Premium.AutoPremiumDiscount)">
-      <Transition name="Transition61" to="Decision171" relationType="Information" />
-    </Decision>
+    <Decision name="Decision59" />
     <InputData name="ClientSegment" isOutput="False" type="string">
-      <Transition name="Transition133" to="Decision171" relationType="Information" />
+      <Transition name="Transition248" to="Decision171" relationType="Information" />
     </InputData>
   </Nodes>
 </DRD>

@@ -11,7 +11,7 @@
     <Condition name="Location" expression="Driver.Location|in(&quot;CA&quot;,&quot;NY&quot;,&quot;VA&quot;)" />
     <Condition name="DrivingRecordCategory" expression="Eligibility.DrivingRecordCategory" />
     <Condition name="Number of Accidents" expression="Driver.NumberOfAccident" />
-    <Action name="Auto &#xA;Premium" expression="Premium.AutoPremium" />
+    <Action name="Auto &#xA;Premium" expression="Premium.Auto Premium Before Discount" />
   </Columns>
   <Data>
     <Row>

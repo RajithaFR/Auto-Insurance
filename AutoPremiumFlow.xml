@@ -11,12 +11,6 @@
     <Start name="Start231">
       <Transition name="Transition43" to="Activity42" />
     </Start>
-    <Activity name="Activity232">
-      <CallDrd contextMode="Shared">
-        <DrdSource uri="Logic Documents\Determine Eligibility Score.xml" />
-      </CallDrd>
-      <Transition name="Transition235" to="Decision234" />
-    </Activity>
     <Decision name="Decision234">
       <Transition name="Transition239" to="Activity238" condition="Eligibility.EligibilityScore &gt; 250" />
       <Transition name="Transition293" to="Activity292" condition="Eligibility.EligibilityScore &lt; 100" />
@@ -33,7 +27,7 @@
       <CallDrd contextMode="Shared">
         <DrdSource uri="Logic Documents\Calculate Premium.xml" />
       </CallDrd>
-      <Transition name="Transition81" to="End296" />
+      <Transition name="Transition248" to="End296" />
     </Activity>
     <End name="End296" />
     <Activity name="Activity42">
@@ -43,7 +37,7 @@
         <Fact name="Driver" value="Driver" />
       </Validator>
       <Transition name="Transition46" to="Terminate45" />
-      <Transition name="Transition58" to="Activity55" condition="IsValid" />
+      <Transition name="Transition115" to="Activity114" condition="IsValid" />
     </Activity>
     <Terminate name="Terminate45" />
     <Terminate name="Terminate162" />
@@ -53,11 +47,11 @@
       </Notification>
       <Transition name="Transition165" to="Terminate162" />
     </Activity>
-    <Activity name="Activity55" skip="Driver.ClientID is empty or Driver.ClientID is null or Driver.ClientId is 0">
+    <Activity name="Activity114">
       <CallDrd contextMode="Shared">
-        <DrdSource uri="Client Segmentation\Client Segmentation.xml" />
+        <DrdSource uri="Logic Documents\Determine Eligibility Score.xml" />
       </CallDrd>
-      <Transition name="Transition57" to="Activity232" />
+      <Transition name="Transition116" to="Decision234" />
     </Activity>
   </Nodes>
 </Flow>

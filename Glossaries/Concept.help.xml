@@ -194,7 +194,7 @@
       <Y>74.05009</Y>
     </Location>
     <Size>
-      <Width>68.34589</Width>
+      <Width>81.94171</Width>
       <Height>23.98116</Height>
     </Size>
     <Description></Description>
@@ -249,7 +249,32 @@
     </Size>
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition530" type="Transition">
+  <NodeInfo name="Discount" type="Fact">
+    <Label>
+      <Text>Discount</Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-7876885</FillColorFrom>
+    <FillColorTo>-7876885</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>284.9624</X>
+      <Y>101.5271</Y>
+    </Location>
+    <Size>
+      <Width>85.46042</Width>
+      <Height>21.96042</Height>
+    </Size>
+    <Description></Description>
+  </NodeInfo>
+  <NodeInfo name="Transition186" type="Transition">
     <Label>
       <Text>TheftRating</Text>
       <Font>
@@ -301,7 +326,7 @@
     <Fact reference="Eligibility.TheftRating" to="TheftRating" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition531" type="Transition">
+  <NodeInfo name="Transition187" type="Transition">
     <Label>
       <Text>OccupantInjuryRating</Text>
       <Font>
@@ -353,7 +378,7 @@
     <Fact reference="Eligibility.OccupantInjuryRating" to="InjuryRate" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition532" type="Transition">
+  <NodeInfo name="Transition188" type="Transition">
     <Label>
       <Text>DrivingRecordCategory</Text>
       <Font>
@@ -405,7 +430,7 @@
     <Fact reference="Eligibility.DrivingRecordCategory" to="DrivingRecord" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition533" type="Transition">
+  <NodeInfo name="Transition189" type="Transition">
     <Label>
       <Text>AutoEligibility</Text>
       <Font>
@@ -457,7 +482,7 @@
     <Fact reference="Eligibility.AutoEligibility" to="AutoEligibility" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition534" type="Transition">
+  <NodeInfo name="Transition190" type="Transition">
     <Label>
       <Text>AgeCategory</Text>
       <Font>
@@ -509,7 +534,7 @@
     <Fact reference="Eligibility.AgeCategory" to="AgeCategory" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition535" type="Transition">
+  <NodeInfo name="Transition191" type="Transition">
     <Label>
       <Text>AgeEligibilityCategory</Text>
       <Font>
@@ -561,7 +586,7 @@
     <Fact reference="Eligibility.AgeEligibilityCategory" to="AgeEligibilityCategory" />
     <Description></Description>
   </NodeInfo>
-  <NodeInfo name="Transition536" type="Transition">
+  <NodeInfo name="Transition192" type="Transition">
     <Label>
       <Text>ClientSegment</Text>
       <Font>
@@ -582,7 +607,7 @@
     </Location>
     <Size>
       <Width>26.79367</Width>
-      <Height>1.577471</Height>
+      <Height>1.577478</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>

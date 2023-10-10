@@ -1,0 +1,14 @@
+<DRD name="Determine Risks Rating">
+  <Nodes>
+    <Decision name="Decision360" />
+    <BusinessKnowledge name="BusinessKnowledge361" uri="Logic Documents\Potential Occupant Injury Category.xml" contextMode="Shared" type="Table">
+      <Transition name="Transition363" to="Decision360" relationType="Knowledge" />
+    </BusinessKnowledge>
+    <BusinessKnowledge name="BusinessKnowledge362" uri="Logic Documents\Potential Theft Category-NL.xml" contextMode="Shared" type="NaturalLanguage">
+      <Transition name="Transition364" to="Decision360" relationType="Knowledge" />
+    </BusinessKnowledge>
+    <InputData name="Car" isOutput="True" type="Car" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition368" to="Decision360" relationType="Information" />
+    </InputData>
+  </Nodes>
+</DRD>

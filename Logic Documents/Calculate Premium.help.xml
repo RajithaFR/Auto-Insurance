@@ -192,19 +192,20 @@
   </NodeInfo>
   <NodeInfo name="SubDrd77" type="SubDrd">
     <Label>
-      <Text>Discount Policy</Text>
+      <Text>Determine
+Discount Component</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
         <Size>9</Size>
       </Font>
       <Size>
-        <Width>20</Width>
-        <Height>10</Height>
+        <Width>23.01875</Width>
+        <Height>11.1875</Height>
       </Size>
       <Location>
-        <X>62.8354</X>
-        <Y>42.44791</Y>
+        <X>61.91041</X>
+        <Y>41.13124</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -221,28 +222,30 @@
     </Border>
     <Location>
       <X>60.4875</X>
-      <Y>40.86041</Y>
+      <Y>39.67291</Y>
     </Location>
     <Size>
       <Width>25.75415</Width>
-      <Height>11.99583</Height>
+      <Height>13.18333</Height>
     </Size>
   </NodeInfo>
   <NodeInfo name="Decision78" type="Decision">
     <Label>
-      <Text>Premium Amount</Text>
+      <Text>Calculate
+Premium 
+Amount</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
         <Size>9</Size>
       </Font>
       <Size>
-        <Width>20</Width>
-        <Height>10</Height>
+        <Width>25.92916</Width>
+        <Height>12.04167</Height>
       </Size>
       <Location>
-        <X>63.36457</X>
-        <Y>19.95833</Y>
+        <X>61.38124</X>
+        <Y>19.16458</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -459,11 +462,11 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>73.06457</X>
+      <X>73.06456</X>
       <Y>52.55624</Y>
     </Location>
     <Size>
-      <Width>0.6000061</Width>
+      <Width>0.6000214</Width>
       <Height>12.33543</Height>
     </Size>
     <Shape>Polyline</Shape>
@@ -476,19 +479,19 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>73.36457</X>
+        <X>73.36456</X>
         <Y>64.59167</Y>
       </Point>
       <Point>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>52.85624</Y>
       </Point>
       <Start>
-        <X>73.36457</X>
+        <X>73.36456</X>
         <Y>64.59167</Y>
       </Start>
       <End>
-        <X>73.36457</X>
+        <X>73.36458</X>
         <Y>52.85624</Y>
       </End>
     </Points>
@@ -614,7 +617,7 @@ Segment</Text>
     </Location>
     <Size>
       <Width>0.6000061</Width>
-      <Height>9.506247</Height>
+      <Height>8.318747</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -627,7 +630,7 @@ Segment</Text>
     <Points>
       <Point>
         <X>73.36458</X>
-        <Y>40.86041</Y>
+        <Y>39.67291</Y>
       </Point>
       <Point>
         <X>73.36458</X>
@@ -635,7 +638,7 @@ Segment</Text>
       </Point>
       <Start>
         <X>73.36458</X>
-        <Y>40.86041</Y>
+        <Y>39.67291</Y>
       </Start>
       <End>
         <X>73.36458</X>
@@ -710,11 +713,11 @@ Segment</Text>
     </Border>
     <Location>
       <X>85.94165</X>
-      <Y>46.55832</Y>
+      <Y>46.15177</Y>
     </Location>
     <Size>
-      <Width>21.92426</Width>
-      <Height>0.6000099</Height>
+      <Width>21.95026</Width>
+      <Height>0.8809662</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -726,20 +729,20 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>107.5659</X>
-        <Y>46.85832</Y>
+        <X>107.5919</X>
+        <Y>46.73274</Y>
       </Point>
       <Point>
         <X>86.24165</X>
-        <Y>46.85833</Y>
+        <Y>46.45177</Y>
       </Point>
       <Start>
-        <X>107.5659</X>
-        <Y>46.85832</Y>
+        <X>107.5919</X>
+        <Y>46.73274</Y>
       </Start>
       <End>
         <X>86.24165</X>
-        <Y>46.85833</Y>
+        <Y>46.45177</Y>
       </End>
     </Points>
   </NodeInfo>

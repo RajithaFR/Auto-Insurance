@@ -1,29 +1,17 @@
 <DRD name="Determine Eligibility Score">
   <Nodes>
-    <Decision name="Decision110" uri="Logic Documents\Eligibility Scoring.xml" contextMode="Shared" type="Table" />
-    <Decision name="Decision111" uri="Logic Documents\Determine Auto Eligibility.xml" contextMode="Shared" type="Table">
-      <Transition name="Transition113" to="Decision110" relationType="Information" />
-    </Decision>
-    <Decision name="Decision112">
-      <Transition name="Transition114" to="Decision110" relationType="Information" />
-    </Decision>
-    <InputData name="Car" isOutput="True" type="Car" assembly="Glossaries\InputFact.xml">
-      <Transition name="Transition137" to="Decision111" relationType="Information" />
+    <SubDrd name="SubDrd105" uri="Logic Documents\Calculate Eligibility Score.xml" contextMode="Shared">
+      <Transition name="Transition109" to="Decision108" relationType="Information" />
+    </SubDrd>
+    <SubDrd name="SubDrd106" skip="Driver.ClientID is empty or Driver.ClientID is null or Driver.ClientId is 0" uri="Client Segmentation\Client Segmentation.xml" contextMode="Shared">
+      <Transition name="Transition107" to="SubDrd105" relationType="Information" />
+    </SubDrd>
+    <Decision name="Decision108" />
+    <InputData name="Car" isOutput="False" type="Car" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition111" to="Decision108" relationType="Information" />
     </InputData>
     <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
-      <Transition name="Transition139" to="Decision112" relationType="Information" />
-    </InputData>
-    <Decision name="Decision153" uri="Logic Documents\Driver Age Category.xml" contextMode="Shared" type="Table">
-      <Transition name="Transition155" to="Decision112" relationType="Information" />
-    </Decision>
-    <Decision name="Decision154" uri="Logic Documents\Driving Record Category.xml" contextMode="Shared" type="Table">
-      <Transition name="Transition156" to="Decision112" relationType="Information" />
-    </Decision>
-    <SubDrd name="SubDrd369" uri="Logic Documents\Determine Rating.xml" contextMode="Shared">
-      <Transition name="Transition370" to="Decision111" relationType="Information" />
-    </SubDrd>
-    <InputData name="ClientSegment" isOutput="False" type="string">
-      <Transition name="Transition85" to="Decision110" relationType="Information" />
+      <Transition name="Transition113" to="Decision108" relationType="Information" />
     </InputData>
   </Nodes>
 </DRD>

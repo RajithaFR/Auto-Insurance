@@ -13,8 +13,8 @@
         <Height>7</Height>
       </Size>
       <Location>
-        <X>64.46877</X>
-        <Y>56.79582</Y>
+        <X>82.19586</X>
+        <Y>57.0604</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -30,50 +30,12 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>64.46877</X>
-      <Y>56.79582</Y>
+      <X>82.19586</X>
+      <Y>57.0604</Y>
     </Location>
     <Size>
       <Width>7</Width>
       <Height>7</Height>
-    </Size>
-  </NodeInfo>
-  <NodeInfo name="Activity232" type="Activity">
-    <Label>
-      <Text>Calculate Eligibility Score</Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-      <Size>
-        <Width>15</Width>
-        <Height>15</Height>
-      </Size>
-      <Location>
-        <X>141.5302</X>
-        <Y>54.13437</Y>
-      </Location>
-      <Alignment>
-        <Vertical>Center</Vertical>
-        <Horizontal>Center</Horizontal>
-      </Alignment>
-    </Label>
-    <Image></Image>
-    <ImageAlign>Center</ImageAlign>
-    <FillColorFrom>-2624513</FillColorFrom>
-    <FillColorTo>-2624513</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>138.6875</X>
-      <Y>52.54686</Y>
-    </Location>
-    <Size>
-      <Width>20.15624</Width>
-      <Height>15.49792</Height>
     </Size>
   </NodeInfo>
   <NodeInfo name="Decision234" type="Decision">
@@ -281,8 +243,8 @@ Validation</Text>
         <Height>13</Height>
       </Size>
       <Location>
-        <X>81.71252</X>
-        <Y>53.79582</Y>
+        <X>99.43961</X>
+        <Y>54.0604</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -298,8 +260,8 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>80.65417</X>
-      <Y>53.79582</Y>
+      <X>98.38126</X>
+      <Y>54.0604</Y>
     </Location>
     <Size>
       <Width>20</Width>
@@ -319,8 +281,8 @@ Validation</Text>
         <Height>7</Height>
       </Size>
       <Location>
-        <X>87.15417</X>
-        <Y>82.77084</Y>
+        <X>104.8813</X>
+        <Y>83.03543</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -336,8 +298,8 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>87.15417</X>
-      <Y>82.77084</Y>
+      <X>104.8813</X>
+      <Y>83.03543</Y>
     </Location>
     <Size>
       <Width>7</Width>
@@ -395,8 +357,8 @@ Validation</Text>
         <Height>9.614586</Height>
       </Size>
       <Location>
-        <X>201.6583</X>
-        <Y>55.75311</Y>
+        <X>208.703</X>
+        <Y>55.7531</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -412,29 +374,29 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>200.5105</X>
-      <Y>54.16562</Y>
+      <X>207.5552</X>
+      <Y>54.16561</Y>
     </Location>
     <Size>
       <Width>27.07707</Width>
       <Height>12.78958</Height>
     </Size>
   </NodeInfo>
-  <NodeInfo name="Activity55" type="Activity">
+  <NodeInfo name="Activity114" type="Activity">
     <Label>
-      <Text>Determine Client Segmentation</Text>
+      <Text>Determine Eligibility Score</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
         <Size>9</Size>
       </Font>
       <Size>
-        <Width>20.63749</Width>
-        <Height>15.00001</Height>
+        <Width>15.90103</Width>
+        <Height>15</Height>
       </Size>
       <Location>
-        <X>112.7583</X>
-        <Y>52.79581</Y>
+        <X>136.0417</X>
+        <Y>53.86978</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -450,8 +412,8 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>112.1396</X>
-      <Y>52.79581</Y>
+      <X>133.3062</X>
+      <Y>52.81144</Y>
     </Location>
     <Size>
       <Width>20.15623</Width>
@@ -474,11 +436,11 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>71.19696</X>
-      <Y>59.99582</Y>
+      <X>88.95</X>
+      <Y>60.2604</Y>
     </Location>
     <Size>
-      <Width>12.55721</Width>
+      <Width>12.5313</Width>
       <Height>0.5999985</Height>
     </Size>
     <Shape>Polyline</Shape>
@@ -491,70 +453,20 @@ Validation</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>71.49696</X>
-        <Y>60.29582</Y>
+        <X>89.25</X>
+        <Y>60.5604</Y>
       </Point>
       <Point>
-        <X>83.45417</X>
-        <Y>60.29582</Y>
+        <X>101.1813</X>
+        <Y>60.5604</Y>
       </Point>
       <Start>
-        <X>71.49696</X>
-        <Y>60.29582</Y>
+        <X>89.25</X>
+        <Y>60.5604</Y>
       </Start>
       <End>
-        <X>83.45417</X>
-        <Y>60.29582</Y>
-      </End>
-    </Points>
-  </NodeInfo>
-  <NodeInfo name="Transition235" type="Transition">
-    <Label>
-      <Text></Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-9868951</FillColorFrom>
-    <FillColorTo>-9868951</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>158.5437</X>
-      <Y>60.08563</Y>
-    </Location>
-    <Size>
-      <Width>14.7961</Width>
-      <Height>0.7265167</Height>
-    </Size>
-    <Shape>Polyline</Shape>
-    <SegmentCount>1</SegmentCount>
-    <Anchors>
-      <Origin>-1</Origin>
-      <Destination>-1</Destination>
-    </Anchors>
-    <Head>Triangle</Head>
-    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
-    <Points>
-      <Point>
-        <X>158.8437</X>
-        <Y>60.38563</Y>
-      </Point>
-      <Point>
-        <X>173.0398</X>
-        <Y>60.51215</Y>
-      </Point>
-      <Start>
-        <X>158.8437</X>
-        <Y>60.38563</Y>
-      </Start>
-      <End>
-        <X>173.0398</X>
-        <Y>60.51215</Y>
+        <X>101.1813</X>
+        <Y>60.5604</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -574,12 +486,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>178.4546</X>
-      <Y>65.55933</Y>
+      <X>178.4557</X>
+      <Y>65.56041</Y>
     </Location>
     <Size>
-      <Width>0.001098633</Width>
-      <Height>23.78019</Height>
+      <Width>0</Width>
+      <Height>23.77911</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -591,16 +503,16 @@ Validation</Text>
     <Pen>0/#FF000000/0/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>178.4546</X>
-        <Y>65.55933</Y>
+        <X>178.4557</X>
+        <Y>65.56041</Y>
       </Point>
       <Point>
         <X>178.4557</X>
         <Y>89.33952</Y>
       </Point>
       <Start>
-        <X>178.4546</X>
-        <Y>65.55933</Y>
+        <X>178.4557</X>
+        <Y>65.56041</Y>
       </Start>
       <End>
         <X>178.4557</X>
@@ -624,12 +536,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>178.4529</X>
-      <Y>37.63334</Y>
+      <X>178.4557</X>
+      <Y>37.63333</Y>
     </Location>
     <Size>
-      <Width>0.002807617</Width>
-      <Height>17.92963</Height>
+      <Width>1.525879E-05</Width>
+      <Height>17.92706</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -641,20 +553,20 @@ Validation</Text>
     <Pen>0/#FF000000/0/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>178.4529</X>
-        <Y>55.56297</Y>
+        <X>178.4557</X>
+        <Y>55.56039</Y>
       </Point>
       <Point>
         <X>178.4557</X>
-        <Y>37.63334</Y>
+        <Y>37.63333</Y>
       </Point>
       <Start>
-        <X>178.4529</X>
-        <Y>55.56297</Y>
+        <X>178.4557</X>
+        <Y>55.56039</Y>
       </Start>
       <End>
         <X>178.4557</X>
-        <Y>37.63334</Y>
+        <Y>37.63333</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -678,8 +590,8 @@ Validation</Text>
       <Y>60.2604</Y>
     </Location>
     <Size>
-      <Width>17.186</Width>
-      <Height>0.5999985</Height>
+      <Width>24.23074</Width>
+      <Height>0.6000023</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -692,18 +604,18 @@ Validation</Text>
     <Points>
       <Point>
         <X>183.9245</X>
-        <Y>60.5604</Y>
+        <Y>60.56039</Y>
       </Point>
       <Point>
-        <X>200.5105</X>
+        <X>207.5552</X>
         <Y>60.5604</Y>
       </Point>
       <Start>
         <X>183.9245</X>
-        <Y>60.5604</Y>
+        <Y>60.56039</Y>
       </Start>
       <End>
-        <X>200.5105</X>
+        <X>207.5552</X>
         <Y>60.5604</Y>
       </End>
     </Points>
@@ -758,56 +670,6 @@ Validation</Text>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition81" type="Transition">
-    <Label>
-      <Text></Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-9868951</FillColorFrom>
-    <FillColorTo>-9868951</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>188.2338</X>
-      <Y>29.58437</Y>
-    </Location>
-    <Size>
-      <Width>57.82591</Width>
-      <Height>0.5999985</Height>
-    </Size>
-    <Shape>Polyline</Shape>
-    <SegmentCount>1</SegmentCount>
-    <Anchors>
-      <Origin>-1</Origin>
-      <Destination>-1</Destination>
-    </Anchors>
-    <Head>Triangle</Head>
-    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
-    <Points>
-      <Point>
-        <X>188.5338</X>
-        <Y>29.88437</Y>
-      </Point>
-      <Point>
-        <X>245.7597</X>
-        <Y>29.88437</Y>
-      </Point>
-      <Start>
-        <X>188.5338</X>
-        <Y>29.88437</Y>
-      </Start>
-      <End>
-        <X>245.7597</X>
-        <Y>29.88437</Y>
-      </End>
-    </Points>
-  </NodeInfo>
   <NodeInfo name="Transition46" type="Transition">
     <Label>
       <Text></Text>
@@ -824,12 +686,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>90.35416</X>
-      <Y>66.49582</Y>
+      <X>108.0813</X>
+      <Y>66.7604</Y>
     </Location>
     <Size>
-      <Width>0.6034012</Width>
-      <Height>16.62274</Height>
+      <Width>0.6000061</Width>
+      <Height>16.61233</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -841,24 +703,24 @@ Validation</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>90.65756</X>
-        <Y>66.79582</Y>
+        <X>108.3813</X>
+        <Y>67.0604</Y>
       </Point>
       <Point>
-        <X>90.65417</X>
-        <Y>82.81856</Y>
+        <X>108.3813</X>
+        <Y>83.07272</Y>
       </Point>
       <Start>
-        <X>90.65756</X>
-        <Y>66.79582</Y>
+        <X>108.3813</X>
+        <Y>67.0604</Y>
       </Start>
       <End>
-        <X>90.65417</X>
-        <Y>82.81856</Y>
+        <X>108.3813</X>
+        <Y>83.07272</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition58" type="Transition">
+  <NodeInfo name="Transition115" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -874,12 +736,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>100.6542</X>
-      <Y>60.37419</Y>
+      <X>118.3813</X>
+      <Y>60.5604</Y>
     </Location>
     <Size>
-      <Width>11.4854</Width>
-      <Height>0.09069824</Height>
+      <Width>14.9249</Width>
+      <Height>0</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -891,20 +753,20 @@ Validation</Text>
     <Pen>0/#FF000000/0/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>100.6542</X>
-        <Y>60.37419</Y>
+        <X>118.3813</X>
+        <Y>60.5604</Y>
       </Point>
       <Point>
-        <X>112.1396</X>
-        <Y>60.46489</Y>
+        <X>133.3062</X>
+        <Y>60.5604</Y>
       </Point>
       <Start>
-        <X>100.6542</X>
-        <Y>60.37419</Y>
+        <X>118.3813</X>
+        <Y>60.5604</Y>
       </Start>
       <End>
-        <X>112.1396</X>
-        <Y>60.46489</Y>
+        <X>133.3062</X>
+        <Y>60.5604</Y>
       </End>
     </Points>
   </NodeInfo>
@@ -924,12 +786,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>227.2876</X>
+      <X>234.3323</X>
       <Y>60.2604</Y>
     </Location>
     <Size>
-      <Width>18.7628</Width>
-      <Height>0.5999985</Height>
+      <Width>11.71809</Width>
+      <Height>0.6000023</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -941,24 +803,24 @@ Validation</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>227.5876</X>
+        <X>234.6323</X>
         <Y>60.5604</Y>
       </Point>
       <Point>
         <X>245.7504</X>
-        <Y>60.5604</Y>
+        <Y>60.56039</Y>
       </Point>
       <Start>
-        <X>227.5876</X>
+        <X>234.6323</X>
         <Y>60.5604</Y>
       </Start>
       <End>
         <X>245.7504</X>
-        <Y>60.5604</Y>
+        <Y>60.56039</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition57" type="Transition">
+  <NodeInfo name="Transition116" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -974,12 +836,12 @@ Validation</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>131.9958</X>
-      <Y>60.09077</Y>
+      <X>153.1625</X>
+      <Y>60.2604</Y>
     </Location>
     <Size>
-      <Width>6.991699</Width>
-      <Height>0.6596184</Height>
+      <Width>20.12451</Width>
+      <Height>0.5999985</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -991,20 +853,69 @@ Validation</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>132.2958</X>
-        <Y>60.45039</Y>
+        <X>153.4625</X>
+        <Y>60.5604</Y>
       </Point>
       <Point>
-        <X>138.6875</X>
-        <Y>60.39077</Y>
+        <X>172.987</X>
+        <Y>60.5604</Y>
       </Point>
       <Start>
-        <X>132.2958</X>
-        <Y>60.45039</Y>
+        <X>153.4625</X>
+        <Y>60.5604</Y>
       </Start>
       <End>
-        <X>138.6875</X>
-        <Y>60.39077</Y>
+        <X>172.987</X>
+        <Y>60.5604</Y>
+      </End>
+    </Points>
+  </NodeInfo>
+  <NodeInfo name="Transition248" type="Transition">
+    <Label>
+      <Text></Text>
+      <Font>
+        <Name>Microsoft Sans Serif</Name>
+        <Style>Regular</Style>
+        <Size>9</Size>
+      </Font>
+    </Label>
+    <FillColorFrom>-9868951</FillColorFrom>
+    <FillColorTo>-9868951</FillColorTo>
+    <Border>
+      <Color>-16777216</Color>
+      <Width>0.3</Width>
+    </Border>
+    <Location>
+      <X>188.5338</X>
+      <Y>29.88437</Y>
+    </Location>
+    <Size>
+      <Width>57.22583</Width>
+      <Height>1.907349E-06</Height>
+    </Size>
+    <Shape>Polyline</Shape>
+    <SegmentCount>1</SegmentCount>
+    <Anchors>
+      <Origin>-1</Origin>
+      <Destination>-1</Destination>
+    </Anchors>
+    <Head>Triangle</Head>
+    <Points>
+      <Point>
+        <X>188.5338</X>
+        <Y>29.88437</Y>
+      </Point>
+      <Point>
+        <X>245.7597</X>
+        <Y>29.88437</Y>
+      </Point>
+      <Start>
+        <X>188.5338</X>
+        <Y>29.88437</Y>
+      </Start>
+      <End>
+        <X>245.7597</X>
+        <Y>29.88437</Y>
       </End>
     </Points>
   </NodeInfo>

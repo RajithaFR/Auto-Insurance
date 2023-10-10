@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExecTemplate>
+  <Record date="2023-10-09T04:57:19.0942914Z" file="Logic Documents\AutoDiscounts.xml" title="2 Percentages" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\2c933c91-8be9-4837-a9c8-6da092f1d796.js.json" />
+    <Options input="1" target="0" logic="" />
+  </Record>
+</ExecTemplate>

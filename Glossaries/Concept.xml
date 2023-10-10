@@ -38,8 +38,8 @@
     <Property name="Young Driver" />
   </Option>
   <Fact name="Premium">
-    <Property name="AutoPremium" type="double" />
-    <Property name="AutoPremiumDiscount" type="double" />
+    <Property name="Auto Premium Before Discount" type="double" />
+    <Property name="Auto Premium After Discount" type="double" />
   </Fact>
   <Fact name="Client">
     <Property name="ClientId" type="int" />
@@ -54,4 +54,8 @@
     <Property name="Preferred Client" />
     <Property name="Elite Client" />
   </Option>
+  <Fact name="Discount">
+    <Property name="CarConditionDiscountPercentage" type="double" />
+    <Property name="MaketSegmentDiscount" type="double" />
+  </Fact>
 </Concept>

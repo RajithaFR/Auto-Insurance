@@ -1,0 +1,58 @@
+<Workflow name="WorkFlow">
+  <Declaration>
+    <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="Local" />
+    <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Driver" type="Driver" assembly="Glossaries\InputFact.xml" direction="In" />
+    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
+    <Define name="IsValid" type="bool" direction="Local" />
+    <Define name="ClientSegment" type="string" direction="Local" />
+  </Declaration>
+  <Nodes>
+    <Start name="Start231">
+      <Transition name="Transition43" to="Activity42" />
+    </Start>
+    <Decision name="Decision234">
+      <Transition name="Transition239" to="Activity238" condition="Eligibility.EligibilityScore &gt; 250" />
+      <Transition name="Transition293" to="Activity292" condition="Eligibility.EligibilityScore &lt; 100" />
+      <Transition name="Transition90" to="HumanTask23" />
+    </Decision>
+    <Activity name="Activity238">
+      <Notification>
+        <Notice message="This client is not eligible for auto insurance." type="Warning" />
+      </Notification>
+      <Transition name="Transition241" to="Terminate240" />
+    </Activity>
+    <Terminate name="Terminate240" />
+    <Activity name="Activity292">
+      <CallDrd contextMode="Shared">
+        <DrdSource uri="Logic Documents\Calculate Premium.xml" />
+      </CallDrd>
+      <Transition name="Transition81" to="End296" />
+    </Activity>
+    <End name="End296" />
+    <Activity name="Activity42">
+      <Validator return="IsValid">
+        <ValidatorSource uri="Glossaries\InputFact.xml" />
+        <Fact name="Car" value="Car" />
+        <Fact name="Driver" value="Driver" />
+      </Validator>
+      <Transition name="Transition46" to="Terminate45" />
+      <Transition name="Transition115" to="Activity114" condition="IsValid" />
+    </Activity>
+    <Terminate name="Terminate45" />
+    <Activity name="Activity114">
+      <CallDrd contextMode="Shared">
+        <DrdSource uri="Logic Documents\Determine Eligibility Score.xml" />
+      </CallDrd>
+      <Transition name="Transition116" to="Decision234" />
+    </Activity>
+    <Task name="HumanTask23" title="Underwriter" type="Single">
+      <Expectations>
+        <Outcome name="Ineligible" />
+        <Outcome name="Eligible" />
+      </Expectations>
+      <Transition name="Transition24" to="Activity292" outcome="Eligible" />
+      <Transition name="Transition25" to="Activity238" outcome="Ineligible" />
+    </Task>
+  </Nodes>
+</Workflow>

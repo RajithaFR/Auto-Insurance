@@ -5,8 +5,108 @@
     </CallFlow>
   </DataSources>
   <Scenarios>
-    <Run dataRowName="Row" description="Scenario1" uri="TestBookletFlow.xml">
+    <Run name="Scenario" dataRowName="Row" uri="BookletFlow.xml">
       <Param name="Input" value="Row" />
     </Run>
   </Scenarios>
+  <Views>
+    <ChartView name="ChartView54" titleVisible="True" type="Bar" rotate="False">
+      <Columns>
+        <Column name="Parent" selected="false" type="string" />
+        <Column name="Rule" selected="true" type="string" role="Argument" />
+        <Column name="Outcome" selected="true" type="bool" role="Count" />
+        <Column name="InputDataIndex" selected="false" type="int" />
+      </Columns>
+      <Chart AppearanceNameSerializable="Default" SelectionMode="None" SeriesSelectionMode="Series">
+        <DataContainer BoundSeriesSorting="None" ValidateDataMembers="true">
+          <SeriesSerializable>
+            <Item1 LabelsVisibility="True" LegendTextPattern="{A}">
+              <Points>
+                <Item1 ValuesSerializable="32" ArgumentSerializable="table0row5" />
+                <Item2 ValuesSerializable="69" ArgumentSerializable="table0row1" />
+                <Item3 ValuesSerializable="61" ArgumentSerializable="table0row2" />
+                <Item4 ValuesSerializable="50" ArgumentSerializable="table0row3" />
+                <Item5 ValuesSerializable="39" ArgumentSerializable="table0row4" />
+                <Item6 ValuesSerializable="16" ArgumentSerializable="Car is not listed in HTPA" />
+                <Item7 ValuesSerializable="26" ArgumentSerializable="table0row6" />
+                <Item8 ValuesSerializable="8" ArgumentSerializable="r5" />
+                <Item9 ValuesSerializable="8" ArgumentSerializable="r4" />
+                <Item10 ValuesSerializable="8" ArgumentSerializable="Driver.Age" />
+                <Item11 ValuesSerializable="8" ArgumentSerializable="Driver.Gender" />
+                <Item12 ValuesSerializable="8" ArgumentSerializable="Driver.DUI" />
+                <Item13 ValuesSerializable="8" ArgumentSerializable="Driver.NumberOfAccident" />
+                <Item14 ValuesSerializable="8" ArgumentSerializable="Driver.Violation" />
+                <Item15 ValuesSerializable="8" ArgumentSerializable="Driver.TrainingCertification" />
+                <Item16 ValuesSerializable="8" ArgumentSerializable="Driver.ClientID" />
+                <Item17 ValuesSerializable="8" ArgumentSerializable="Driver.Married" />
+                <Item18 ValuesSerializable="8" ArgumentSerializable="Driver.Location" />
+                <Item19 ValuesSerializable="8" ArgumentSerializable="Rule-1" />
+                <Item20 ValuesSerializable="8" ArgumentSerializable="r1" />
+                <Item21 ValuesSerializable="8" ArgumentSerializable="r2" />
+                <Item22 ValuesSerializable="8" ArgumentSerializable="r3" />
+                <Item23 ValuesSerializable="26" ArgumentSerializable="table0row7" />
+                <Item24 ValuesSerializable="8" ArgumentSerializable="Driver" />
+                <Item25 ValuesSerializable="20" ArgumentSerializable="table0row8" />
+                <Item26 ValuesSerializable="14" ArgumentSerializable="table0row10" />
+                <Item27 ValuesSerializable="6" ArgumentSerializable="table0row11" />
+                <Item28 ValuesSerializable="14" ArgumentSerializable="table0row9" />
+              </Points>
+              <Label TypeNameSerializable="SideBySideBarSeriesLabel" TextOrientation="Horizontal" TextPattern="{A}: {VP:p2} ({V:.##})" />
+            </Item1>
+          </SeriesSerializable>
+          <SeriesTemplate />
+        </DataContainer>
+        <Diagram EnableAxisXScrolling="true" EnableAxisYScrolling="true" EnableAxisXZooming="true" EnableAxisYZooming="true" RuntimePaneCollapse="true" RuntimePaneResize="false" PaneLayoutDirection="Vertical" TypeNameSerializable="XYDiagram">
+          <AxisX StickToEnd="false" VisibleInPanesSerializable="-1" ShowBehind="false">
+            <WholeRange StartSideMargin="0.5" EndSideMargin="0.5" SideMarginSizeUnit="AxisUnit" />
+          </AxisX>
+          <AxisY VisibleInPanesSerializable="-1" ShowBehind="false">
+            <WholeRange StartSideMargin="6.9" EndSideMargin="6.9" SideMarginSizeUnit="AxisUnit" />
+          </AxisY>
+          <SelectionOptions />
+        </Diagram>
+        <Legend CrosshairContentOffset="4" MaxCrosshairContentWidth="50" MaxCrosshairContentHeight="0" Visibility="True" />
+        <Titles>
+          <Item1 Visibility="True" Font="Tahoma, 18pt" TextColor="" Antialiasing="true" EnableAntialiasing="Default" />
+        </Titles>
+      </Chart>
+      <Legend visible="True" pattern="{A}" />
+      <Labels visible="True" pattern="{A}: {VP:p2} ({V:.##})" />
+      <Colors>
+        <Argument value="table0row5" color="(255,94,114,132)" />
+        <Argument value="table0row1" color="(255,117,147,146)" />
+        <Argument value="table0row2" color="(255,91,123,154)" />
+        <Argument value="table0row3" color="(255,83,139,144)" />
+        <Argument value="table0row4" color="(255,83,136,121)" />
+        <Argument value="Car is not listed in HTPA" color="(255,64,114,134)" />
+        <Argument value="table0row6" color="(255,120,141,163)" />
+        <Argument value="r5" color="(255,122,130,136)" />
+        <Argument value="r4" color="(255,99,108,146)" />
+        <Argument value="Driver.Age" color="(255,87,132,159)" />
+        <Argument value="Driver.Gender" color="(255,113,158,153)" />
+        <Argument value="Driver.DUI" color="(255,113,153,126)" />
+        <Argument value="Driver.NumberOfAccident" color="(255,89,122,114)" />
+        <Argument value="Driver.Violation" color="(255,78,147,126)" />
+        <Argument value="Driver.TrainingCertification" color="(255,71,101,128)" />
+        <Argument value="Driver.ClientID" color="(255,68,107,147)" />
+        <Argument value="Driver.Married" color="(255,58,123,137)" />
+        <Argument value="Driver.Location" color="(255,58,123,118)" />
+        <Argument value="Rule-1" color="(255,126,124,152)" />
+        <Argument value="r1" color="(255,116,153,170)" />
+        <Argument value="r2" color="(255,118,137,117)" />
+        <Argument value="r3" color="(255,76,94,141)" />
+        <Argument value="table0row7" color="(255,109,164,132)" />
+        <Argument value="Driver" color="(255,62,116,150)" />
+        <Argument value="table0row8" color="(255,65,109,112)" />
+        <Argument value="table0row10" color="(255,53,132,121)" />
+        <Argument value="table0row11" color="(255,148,166,154)" />
+        <Argument value="table0row9" color="(255,94,118,164)" />
+      </Colors>
+    </ChartView>
+  </Views>
+  <Pages>
+    <Page name="Page 1">
+      <ChartView name="ChartView54" />
+    </Page>
+  </Pages>
 </Booklet>

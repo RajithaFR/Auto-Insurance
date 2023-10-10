@@ -13,7 +13,7 @@
     <Condition name="Medical coverage&#xA;is included" expression="Car.HasMedicalCoverage" />
     <Condition name="Potential Occupant&#xA;Injury Rate" expression="Eligibility.OccupantInjuryRating" />
     <Condition name="Potential &#xA;Theft Rating" expression="Eligibility.TheftRating" />
-    <Action name="Auto &#xA;Premium" expression="Premium.AutoPremium" />
+    <Action name="Auto &#xA;Premium" expression="Premium.Auto Premium Before Discount" />
   </Columns>
   <Data>
     <Row>

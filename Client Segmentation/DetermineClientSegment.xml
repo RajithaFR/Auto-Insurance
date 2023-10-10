@@ -26,12 +26,5 @@
       <Value></Value>
       <Value>Preferred Client</Value>
     </Row>
-    <Row>
-      <Value></Value>
-      <Value></Value>
-      <Value></Value>
-      <Value></Value>
-      <Value>New Client</Value>
-    </Row>
   </Data>
 </DecisionTable>

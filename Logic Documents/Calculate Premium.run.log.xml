@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ExecTemplate>
-  <Record date="2023-10-06T04:35:09.3387233Z" file="Logic Documents\Calculate Premium.xml" title="AutoPremium=472.50" description="Discount=15%">
+  <Record date="2023-10-06T04:35:09.3387233Z" file="Logic Documents\Calculate Premium.xml" title="AutoPremium=370.50" description="">
     <Run providerType="JSONComposer" file=".RunTemplate\7b050a81-32de-4139-96fe-4a908ed137a4.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>

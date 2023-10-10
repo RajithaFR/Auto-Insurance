@@ -1,0 +1,29 @@
+{
+    "Car":
+    {
+    "Airbag" : {
+        "Driver" : true,
+        "Passenger" : true,
+        "SidePanel" : false
+    },
+    "AlarmSystem" : false,
+    "Price" : 39000,
+    "HighTheftProbabilityAuto" : false,
+    "Convertible" : false,
+    "HasRollBar" : false,
+    "CarType" : "Compact",
+    "ModelYear" : 2022,
+    "UninsuredMotoristCoverage" : false,
+    "HasMedicalCoverage" : false
+},
+    "Eligibility":
+    {
+    "TheftRating" : "Moderate",
+    "OccupantInjuryRating" : "Low",
+    "DrivingRecordCategory" : "Low Risk",
+    "AgeEligibilityCategory" : "Eligible Driver",
+    "AutoEligibility" : "Eligible",
+    "EligibilityScore" : -50
+},
+    "ClientSegment":"Preferred Client"
+}

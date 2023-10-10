@@ -2,7 +2,8 @@
   <NodeInfo name="Calculate Discount" type="DRD" />
   <NodeInfo name="Decision170" type="Decision">
     <Label>
-      <Text>Determine AutoDiscounts</Text>
+      <Text>Car Condition
+Discount Percentage</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
@@ -13,8 +14,8 @@
         <Height>11.99583</Height>
       </Size>
       <Location>
-        <X>121.4105</X>
-        <Y>77.43329</Y>
+        <X>110.298</X>
+        <Y>51.7687</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -30,8 +31,8 @@
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>118.9396</X>
-      <Y>77.43329</Y>
+      <X>107.8271</X>
+      <Y>51.7687</Y>
     </Location>
     <Size>
       <Width>26.28333</Width>
@@ -40,7 +41,7 @@
   </NodeInfo>
   <NodeInfo name="Decision171" type="Decision">
     <Label>
-      <Text>Client
+      <Text>Market
 Segment Discount</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
@@ -52,8 +53,8 @@ Segment Discount</Text>
         <Height>12.78958</Height>
       </Size>
       <Location>
-        <X>122.0813</X>
-        <Y>28.45937</Y>
+        <X>153.5667</X>
+        <Y>51.37183</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -69,50 +70,12 @@ Segment Discount</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>119.4688</X>
-      <Y>28.45937</Y>
+      <X>150.9542</X>
+      <Y>51.37183</Y>
     </Location>
     <Size>
-      <Width>25.225</Width>
+      <Width>25.22501</Width>
       <Height>13.31875</Height>
-    </Size>
-  </NodeInfo>
-  <NodeInfo name="Premium" type="InputData">
-    <Label>
-      <Text>Premium</Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-      <Size>
-        <Width>20</Width>
-        <Height>10</Height>
-      </Size>
-      <Location>
-        <X>166.6438</X>
-        <Y>30.11874</Y>
-      </Location>
-      <Alignment>
-        <Vertical>Center</Vertical>
-        <Horizontal>Center</Horizontal>
-      </Alignment>
-    </Label>
-    <Image></Image>
-    <ImageAlign>Center</ImageAlign>
-    <FillColorFrom>-2572328</FillColorFrom>
-    <FillColorTo>-2572328</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>166.6438</X>
-      <Y>30.11874</Y>
-    </Location>
-    <Size>
-      <Width>20</Width>
-      <Height>9.999998</Height>
     </Size>
   </NodeInfo>
   <NodeInfo name="Car" type="InputData">
@@ -128,8 +91,8 @@ Segment Discount</Text>
         <Height>10</Height>
       </Size>
       <Location>
-        <X>75.62707</X>
-        <Y>30.11874</Y>
+        <X>76.42081</X>
+        <Y>43.34792</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -145,8 +108,8 @@ Segment Discount</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>75.62707</X>
-      <Y>30.11874</Y>
+      <X>76.42081</X>
+      <Y>43.34792</Y>
     </Location>
     <Size>
       <Width>20</Width>
@@ -166,8 +129,8 @@ Segment Discount</Text>
         <Height>10</Height>
       </Size>
       <Location>
-        <X>165.3208</X>
-        <Y>46.23228</Y>
+        <X>76.42081</X>
+        <Y>59.99059</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -183,8 +146,8 @@ Segment Discount</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>165.3208</X>
-      <Y>46.23228</Y>
+      <X>76.42081</X>
+      <Y>59.99059</Y>
     </Location>
     <Size>
       <Width>20</Width>
@@ -193,7 +156,8 @@ Segment Discount</Text>
   </NodeInfo>
   <NodeInfo name="Decision59" type="Decision">
     <Label>
-      <Text>Apply Auto Discount</Text>
+      <Text>Discount
+Component</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>
@@ -204,8 +168,8 @@ Segment Discount</Text>
         <Height>10</Height>
       </Size>
       <Location>
-        <X>122.0812</X>
-        <Y>53.97706</Y>
+        <X>130.2833</X>
+        <Y>29.6354</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -221,8 +185,8 @@ Segment Discount</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>118.9396</X>
-      <Y>53.97706</Y>
+      <X>127.1417</X>
+      <Y>29.6354</Y>
     </Location>
     <Size>
       <Width>26.28333</Width>
@@ -243,8 +207,8 @@ Segment</Text>
         <Height>10</Height>
       </Size>
       <Location>
-        <X>75.62707</X>
-        <Y>46.23228</Y>
+        <X>188.6041</X>
+        <Y>53.0312</Y>
       </Location>
       <Alignment>
         <Vertical>Center</Vertical>
@@ -260,8 +224,8 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>75.62707</X>
-      <Y>46.23228</Y>
+      <X>188.6041</X>
+      <Y>53.0312</Y>
     </Location>
     <Size>
       <Width>20</Width>
@@ -284,12 +248,12 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>131.7813</X>
-      <Y>66.20206</Y>
+      <X>126.1337</X>
+      <Y>41.86039</Y>
     </Location>
     <Size>
-      <Width>0.6000061</Width>
-      <Height>11.53123</Height>
+      <Width>8.984711</Width>
+      <Height>10.20831</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -301,24 +265,24 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>132.0813</X>
-        <Y>77.43329</Y>
+        <X>126.4337</X>
+        <Y>51.7687</Y>
       </Point>
       <Point>
-        <X>132.0813</X>
-        <Y>66.50206</Y>
+        <X>134.8184</X>
+        <Y>42.16039</Y>
       </Point>
       <Start>
-        <X>132.0813</X>
-        <Y>77.43329</Y>
+        <X>126.4337</X>
+        <Y>51.7687</Y>
       </Start>
       <End>
-        <X>132.0813</X>
-        <Y>66.50206</Y>
+        <X>134.8184</X>
+        <Y>42.16039</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition62" type="Transition">
+  <NodeInfo name="Transition195" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -334,12 +298,12 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>144.3938</X>
-      <Y>34.81874</Y>
+      <X>146.5712</X>
+      <Y>41.86039</Y>
     </Location>
     <Size>
-      <Width>22.595</Width>
-      <Height>0.5999985</Height>
+      <Width>10.2901</Width>
+      <Height>9.81144</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -351,24 +315,24 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>166.6888</X>
-        <Y>35.11874</Y>
+        <X>156.5613</X>
+        <Y>51.37183</Y>
       </Point>
       <Point>
-        <X>144.6938</X>
-        <Y>35.11874</Y>
+        <X>146.8712</X>
+        <Y>42.16039</Y>
       </Point>
       <Start>
-        <X>166.6888</X>
-        <Y>35.11874</Y>
+        <X>156.5613</X>
+        <Y>51.37183</Y>
       </Start>
       <End>
-        <X>144.6938</X>
-        <Y>35.11874</Y>
+        <X>146.8712</X>
+        <Y>42.16039</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition72" type="Transition">
+  <NodeInfo name="Transition242" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -384,12 +348,12 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>95.38641</X>
-      <Y>34.81874</Y>
+      <X>95.38768</X>
+      <Y>50.64553</Y>
     </Location>
     <Size>
-      <Width>24.38239</Width>
-      <Height>0.5999985</Height>
+      <Width>12.73943</Width>
+      <Height>4.002327</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -401,24 +365,24 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>95.68642</X>
-        <Y>35.11874</Y>
+        <X>95.68768</X>
+        <Y>50.94553</Y>
       </Point>
       <Point>
-        <X>119.4688</X>
-        <Y>35.11874</Y>
+        <X>107.8271</X>
+        <Y>54.34786</Y>
       </Point>
       <Start>
-        <X>95.68642</X>
-        <Y>35.11874</Y>
+        <X>95.68768</X>
+        <Y>50.94553</Y>
       </Start>
       <End>
-        <X>119.4688</X>
-        <Y>35.11874</Y>
+        <X>107.8271</X>
+        <Y>54.34786</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition101" type="Transition">
+  <NodeInfo name="Transition243" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -434,12 +398,12 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>144.3938</X>
-      <Y>39.61024</Y>
+      <X>95.74657</X>
+      <Y>60.37855</Y>
     </Location>
     <Size>
-      <Width>22.3392</Width>
-      <Height>8.858749</Height>
+      <Width>12.38053</Width>
+      <Height>2.973019</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -451,24 +415,24 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>166.433</X>
-        <Y>48.16899</Y>
+        <X>96.04658</X>
+        <Y>63.05157</Y>
       </Point>
       <Point>
-        <X>144.6938</X>
-        <Y>39.91024</Y>
+        <X>107.8271</X>
+        <Y>60.67855</Y>
       </Point>
       <Start>
-        <X>166.433</X>
-        <Y>48.16899</Y>
+        <X>96.04658</X>
+        <Y>63.05157</Y>
       </Start>
       <End>
-        <X>144.6938</X>
-        <Y>39.91024</Y>
+        <X>107.8271</X>
+        <Y>60.67855</Y>
       </End>
     </Points>
   </NodeInfo>
-  <NodeInfo name="Transition61" type="Transition">
+  <NodeInfo name="Transition248" type="Transition">
     <Label>
       <Text></Text>
       <Font>
@@ -484,12 +448,12 @@ Segment</Text>
       <Width>0.3</Width>
     </Border>
     <Location>
-      <X>131.781</X>
-      <Y>41.47812</Y>
+      <X>175.8792</X>
+      <Y>57.73156</Y>
     </Location>
     <Size>
-      <Width>0.6002197</Width>
-      <Height>12.79894</Height>
+      <Width>13.0522</Width>
+      <Height>0.6004295</Height>
     </Size>
     <Shape>Polyline</Shape>
     <SegmentCount>1</SegmentCount>
@@ -501,70 +465,20 @@ Segment</Text>
     <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
     <Points>
       <Point>
-        <X>132.0812</X>
-        <Y>53.97706</Y>
+        <X>188.6314</X>
+        <Y>58.03156</Y>
       </Point>
       <Point>
-        <X>132.081</X>
-        <Y>41.77812</Y>
+        <X>176.1792</X>
+        <Y>58.03199</Y>
       </Point>
       <Start>
-        <X>132.0812</X>
-        <Y>53.97706</Y>
+        <X>188.6314</X>
+        <Y>58.03156</Y>
       </Start>
       <End>
-        <X>132.081</X>
-        <Y>41.77812</Y>
-      </End>
-    </Points>
-  </NodeInfo>
-  <NodeInfo name="Transition133" type="Transition">
-    <Label>
-      <Text></Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-9868951</FillColorFrom>
-    <FillColorTo>-9868951</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>94.31208</X>
-      <Y>39.19149</Y>
-    </Location>
-    <Size>
-      <Width>25.45673</Width>
-      <Height>9.223598</Height>
-    </Size>
-    <Shape>Polyline</Shape>
-    <SegmentCount>1</SegmentCount>
-    <Anchors>
-      <Origin>-1</Origin>
-      <Destination>-1</Destination>
-    </Anchors>
-    <Head>Triangle</Head>
-    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
-    <Points>
-      <Point>
-        <X>94.61208</X>
-        <Y>48.11509</Y>
-      </Point>
-      <Point>
-        <X>119.4688</X>
-        <Y>39.49149</Y>
-      </Point>
-      <Start>
-        <X>94.61208</X>
-        <Y>48.11509</Y>
-      </Start>
-      <End>
-        <X>119.4688</X>
-        <Y>39.49149</Y>
+        <X>176.1792</X>
+        <Y>58.03199</Y>
       </End>
     </Points>
   </NodeInfo>

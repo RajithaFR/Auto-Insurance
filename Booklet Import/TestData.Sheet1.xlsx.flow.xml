@@ -9,7 +9,7 @@
     <End name="EndActivity" />
     <Activity name="LoadxlsxActivity">
       <Spreadsheet return="Results" type="xlsx">
-        <DataSource uri="TestData.xlsx" rows="1-3" />
+        <DataSource uri="Booklet Source\TestData.xlsx" rows="1-9" />
         <Map>
   <Add property="AlarmSystem" column="A" type="bool" />
   <Add property="Driver" column="B" type="bool" />
@@ -29,10 +29,9 @@
   <Add property="NumberOfAccident" column="P" type="byte" />
   <Add property="Violation" column="Q" type="byte" />
   <Add property="TrainingCertification" column="R" type="bool" />
-  <Add property="ClientType" column="S" type="string" />
+  <Add property="ClientID" column="S" type="int" />
   <Add property="Married" column="T" type="bool" />
   <Add property="Location" column="U" type="string" />
-  <Add property="Outcome" column="V" type="string" />
 </Map>
       </Spreadsheet>
       <Transition name="Transition15" to="EndActivity" />

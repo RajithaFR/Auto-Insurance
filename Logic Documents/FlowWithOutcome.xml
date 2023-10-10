@@ -13,7 +13,7 @@
     </Start>
     <Activity name="Activity232">
       <CallDrd contextMode="Shared">
-        <DrdSource uri="Logic Documents\Determine Eligibility Score.xml" />
+        <DrdSource uri="Logic Documents\Calculate Eligibility Score.xml" />
       </CallDrd>
       <Transition name="Transition235" to="Decision234" />
     </Activity>

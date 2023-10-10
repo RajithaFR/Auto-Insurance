@@ -1,20 +1,24 @@
 <DecisionTable name="Market Segment Discount" processAll="False">
   <Declaration>
     <Define name="ClientSegment" type="string" direction="In" />
-    <Define name="Premium" type="Premium" assembly="Glossaries\Concept.xml" direction="Out" />
+    <Define name="MaketSegmentDiscount" type="double" direction="Out" value="0.0" />
   </Declaration>
   <Columns>
     <Condition name="Client" expression="ClientSegment" />
-    <Action name="Premium" expression="Premium.AutoPremium" />
+    <Action name="Market Segment Discount" expression="MaketSegmentDiscount" />
   </Columns>
   <Data>
     <Row>
       <Value>Preferred Client</Value>
-      <Value>-=250</Value>
+      <Value>250</Value>
     </Row>
     <Row>
       <Value>Elite Client</Value>
-      <Value>-=500</Value>
+      <Value>500</Value>
+    </Row>
+    <Row>
+      <Value></Value>
+      <Value>0</Value>
     </Row>
   </Data>
 </DecisionTable>

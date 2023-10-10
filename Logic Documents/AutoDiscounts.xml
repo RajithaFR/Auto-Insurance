@@ -1,7 +1,8 @@
-<DecisionTable name="AutoDiscounts" processAll="True">
+<DecisionTable name="AutoDiscounts" multiHitPolicy="RuleOrder" aggregation="Sum">
   <Declaration>
     <Define name="Car" type="Car" assembly="Glossaries\InputFact.xml" direction="In" />
     <Define name="Eligibility" type="Eligibility" assembly="Glossaries\Concept.xml" direction="In" />
+    <Define name="CarConditionDiscountPercentage" direction="Out" />
   </Declaration>
   <Columns>
     <Condition name="Driver's Airbag" expression="Car.Airbag.Driver" />
@@ -9,7 +10,7 @@
     <Condition name="Side Panel Airbag" expression="Car.Airbag.SidePanel" />
     <Condition name="Theft Rating" expression="Eligibility.TheftRating" />
     <Condition name="Alarm System" expression="Car.AlarmSystem" />
-    <Action name="Auto Premium Discount" expression="Premium.AutoPremiumDiscount" />
+    <Action name="Car Condition Discount Percentage" />
   </Columns>
   <Data>
     <Row>

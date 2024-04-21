@@ -110,7 +110,7 @@
           </lines>
           <bounds x="1" y="0" width="1" height="1" />
           <style t="2">
-            <hidden>1</hidden>
+            <hidden>0</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
             <fontSize>8</fontSize>
@@ -184,7 +184,7 @@
           </lines>
           <bounds x="2" y="0" width="1" height="1" />
           <style t="2">
-            <hidden>1</hidden>
+            <hidden>0</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
             <fontSize>8</fontSize>
@@ -213,6 +213,14 @@
             <l ymin="3" ymax="5">
               <segments>
                 <s p="0" s="1" />
+                <s p="1" s="0" />
+                <s p="1" s="1" />
+                <s p="2" s="0" />
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+                <s p="3" s="1" />
+                <s p="4" s="0" />
+                <s p="4" s="1" />
                 <s p="5" s="0" />
               </segments>
             </l>
@@ -330,7 +338,7 @@
             <v t="23">12</v>
           </c>
         </row>
-        <row r="3" title="1" pageBreak="0" collapsed="1">
+        <row r="3" title="1" pageBreak="0" collapsed="0">
           <c c="0">
             <v t="23">13</v>
           </c>

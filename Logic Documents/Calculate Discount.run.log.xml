@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ExecTemplate>
-  <Record date="2023-10-09T04:55:27.8722062Z" file="Logic Documents\Calculate Discount.xml" title="Multiple Discounts" description="">
-    <Run providerType="JSONComposer" file=".RunTemplate\5a868fe9-5382-4291-a143-b97eb19696ba.js.json" />
+  <Record date="2023-10-23T21:52:13.6931303Z" file="Logic Documents\Calculate Discount.xml" title="Muliple Discount" description="">
+    <Run providerType="JSONComposer" file=".RunTemplate\2118635b-f278-4c8d-96b9-c2b153787fc9.js.json" />
     <Options input="1" target="0" logic="" />
   </Record>
 </ExecTemplate>

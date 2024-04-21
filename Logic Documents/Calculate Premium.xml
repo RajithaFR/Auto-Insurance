@@ -27,8 +27,5 @@
     <InputData name="Eligibility" isOutput="False" type="Eligibility" assembly="Glossaries\Concept.xml">
       <Transition name="Transition386" to="Decision267" relationType="Information" />
     </InputData>
-    <InputData name="ClientSegment" isOutput="False" type="string">
-      <Transition name="Transition437" to="SubDrd77" relationType="Information" />
-    </InputData>
   </Nodes>
 </DRD>

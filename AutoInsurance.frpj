@@ -1,7 +1,7 @@
 <Designer>
   <Project>
     <Name>AutoInsurance</Name>
-    <Path>C:\Users\RajithaAbeygunawardh\Documents\FlexRule\Projects\AutoInsurance</Path>
+    <Path>C:\Users\RajithaAbeygunawardh\Documents\FlexRule\Projects\AutoInsurance V10</Path>
     <Description></Description>
   </Project>
   <References />
@@ -32,9 +32,9 @@
       <Add assembly="FlexRule.Designer.FactConcepts.dll" type="FlexRule.Designer.FactConcepts.ConceptDiagramBuilderStrategy" description="Concept and Fact Types Model" />
       <Add assembly="FlexRule.Designer.FlowEngine.dll" type="FlexRule.Designer.RuleFlow.DirectoryService.DirectoryServiceBuilderStrategy" description="Directory Service Integration" />
       <Add assembly="FlexRule.Designer.DataAnalytics.dll" type="FlexRule.Designer.DataAnalytics.BookletElementItemBuilderStrategy" description="Booklet editor commands" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.BoxedExpressionBuilderElementStrategy" description="" />
       <Add assembly="FlexRule.Designer.Glossaries.dll" type="FlexRule.Designer.Glossaries.Terms.ElementItemBuilderBuiltinElementStrategy" description="" />
       <Add assembly="FlexRule.Designer.Glossaries.dll" type="FlexRule.Designer.Glossaries.Formulas.FormulasBuilderStrategy" description="" />
-      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.BoxedExpressionBuilderElementStrategy" description="" />
     </Builders>
   </ProjectProviders>
   <Toolbox>
@@ -52,10 +52,19 @@
     <Add name="train" />
     <Add name="predict" />
     <Add name="|toDataFrame" />
+    <Add name="upper case" />
+    <Add name="lower case" />
+    <Add name="substring" />
+    <Add name="matches" />
+    <Add name="list contains" />
+    <Add name="starts with" />
+    <Add name="ends with" />
+    <Add name="substring before" />
+    <Add name="substring after" />
   </Functions>
   <Environments />
   <Debugger>
-    <Runtime path="C:\Users\RajithaAbeygunawardh\Documents\.flexrule\10.0.59" />
+    <Runtime path="C:\Users\RajithaAbeygunawardh\Documents\.flexrule\10.0.341" />
     <License path="" />
   </Debugger>
   <Metadata />
@@ -71,4 +80,5 @@
   <Exclusions>
     <File value="Booklet Import\CarList.Car.xlsx.booklet.xml" />
   </Exclusions>
+  <PSettings allowTab="true" index1="false" startupDoc="AutoPremiumFlow.xml" />
 </Designer>

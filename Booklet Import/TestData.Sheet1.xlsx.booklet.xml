@@ -10,7 +10,7 @@
     </Run>
   </Scenarios>
   <Views>
-    <ChartView name="ChartView54" titleVisible="True" type="Bar" rotate="False">
+    <ChartView name="Exising Portfolio" titleVisible="True" title="Existing Portfolio" type="Bar" rotate="False">
       <Columns>
         <Column name="Parent" selected="false" type="string" />
         <Column name="Rule" selected="true" type="string" role="Argument" />
@@ -20,36 +20,39 @@
       <Chart AppearanceNameSerializable="Default" SelectionMode="None" SeriesSelectionMode="Series">
         <DataContainer BoundSeriesSorting="None" ValidateDataMembers="true">
           <SeriesSerializable>
-            <Item1 LabelsVisibility="True" LegendTextPattern="{A}">
+            <Item1 Name="ChartView54" LabelsVisibility="True" LegendTextPattern="{A}">
               <Points>
-                <Item1 ValuesSerializable="32" ArgumentSerializable="table0row5" />
-                <Item2 ValuesSerializable="69" ArgumentSerializable="table0row1" />
-                <Item3 ValuesSerializable="61" ArgumentSerializable="table0row2" />
-                <Item4 ValuesSerializable="50" ArgumentSerializable="table0row3" />
-                <Item5 ValuesSerializable="39" ArgumentSerializable="table0row4" />
-                <Item6 ValuesSerializable="16" ArgumentSerializable="Car is not listed in HTPA" />
-                <Item7 ValuesSerializable="26" ArgumentSerializable="table0row6" />
-                <Item8 ValuesSerializable="8" ArgumentSerializable="r5" />
-                <Item9 ValuesSerializable="8" ArgumentSerializable="r4" />
-                <Item10 ValuesSerializable="8" ArgumentSerializable="Driver.Age" />
-                <Item11 ValuesSerializable="8" ArgumentSerializable="Driver.Gender" />
-                <Item12 ValuesSerializable="8" ArgumentSerializable="Driver.DUI" />
-                <Item13 ValuesSerializable="8" ArgumentSerializable="Driver.NumberOfAccident" />
-                <Item14 ValuesSerializable="8" ArgumentSerializable="Driver.Violation" />
-                <Item15 ValuesSerializable="8" ArgumentSerializable="Driver.TrainingCertification" />
-                <Item16 ValuesSerializable="8" ArgumentSerializable="Driver.ClientID" />
-                <Item17 ValuesSerializable="8" ArgumentSerializable="Driver.Married" />
-                <Item18 ValuesSerializable="8" ArgumentSerializable="Driver.Location" />
-                <Item19 ValuesSerializable="8" ArgumentSerializable="Rule-1" />
-                <Item20 ValuesSerializable="8" ArgumentSerializable="r1" />
-                <Item21 ValuesSerializable="8" ArgumentSerializable="r2" />
-                <Item22 ValuesSerializable="8" ArgumentSerializable="r3" />
-                <Item23 ValuesSerializable="26" ArgumentSerializable="table0row7" />
-                <Item24 ValuesSerializable="8" ArgumentSerializable="Driver" />
-                <Item25 ValuesSerializable="20" ArgumentSerializable="table0row8" />
+                <Item1 ValuesSerializable="47" ArgumentSerializable="table0row3" />
+                <Item2 ValuesSerializable="59" ArgumentSerializable="table0row2" />
+                <Item3 ValuesSerializable="39" ArgumentSerializable="table0row4" />
+                <Item4 ValuesSerializable="66" ArgumentSerializable="table0row1" />
+                <Item5 ValuesSerializable="32" ArgumentSerializable="table0row5" />
+                <Item6 ValuesSerializable="26" ArgumentSerializable="table0row6" />
+                <Item7 ValuesSerializable="26" ArgumentSerializable="table0row7" />
+                <Item8 ValuesSerializable="16" ArgumentSerializable="Car is not listed in HTPA" />
+                <Item9 ValuesSerializable="8" ArgumentSerializable="r5" />
+                <Item10 ValuesSerializable="8" ArgumentSerializable="Driver.Gender" />
+                <Item11 ValuesSerializable="8" ArgumentSerializable="Driver.DUI" />
+                <Item12 ValuesSerializable="8" ArgumentSerializable="Driver.NumberOfAccident" />
+                <Item13 ValuesSerializable="8" ArgumentSerializable="Driver.Violation" />
+                <Item14 ValuesSerializable="8" ArgumentSerializable="Driver.TrainingCertification" />
+                <Item15 ValuesSerializable="8" ArgumentSerializable="Driver.ClientID" />
+                <Item16 ValuesSerializable="8" ArgumentSerializable="Driver.Married" />
+                <Item17 ValuesSerializable="8" ArgumentSerializable="Driver.Location" />
+                <Item18 ValuesSerializable="8" ArgumentSerializable="Rule-1" />
+                <Item19 ValuesSerializable="8" ArgumentSerializable="r1" />
+                <Item20 ValuesSerializable="8" ArgumentSerializable="r2" />
+                <Item21 ValuesSerializable="8" ArgumentSerializable="r3" />
+                <Item22 ValuesSerializable="8" ArgumentSerializable="r4" />
+                <Item23 ValuesSerializable="8" ArgumentSerializable="Driver.Age" />
+                <Item24 ValuesSerializable="20" ArgumentSerializable="table0row8" />
+                <Item25 ValuesSerializable="14" ArgumentSerializable="table0row9" />
                 <Item26 ValuesSerializable="14" ArgumentSerializable="table0row10" />
-                <Item27 ValuesSerializable="6" ArgumentSerializable="table0row11" />
-                <Item28 ValuesSerializable="14" ArgumentSerializable="table0row9" />
+                <Item27 ValuesSerializable="6" ArgumentSerializable="Preferred" />
+                <Item28 ValuesSerializable="6" ArgumentSerializable="table0row11" />
+                <Item29 ValuesSerializable="8" ArgumentSerializable="Driver" />
+                <Item30 ValuesSerializable="3" ArgumentSerializable="New" />
+                <Item31 ValuesSerializable="5" ArgumentSerializable="Elite" />
               </Points>
               <Label TypeNameSerializable="SideBySideBarSeriesLabel" TextOrientation="Horizontal" TextPattern="{A}: {VP:p2} ({V:.##})" />
             </Item1>
@@ -61,17 +64,17 @@
             <WholeRange StartSideMargin="0.5" EndSideMargin="0.5" SideMarginSizeUnit="AxisUnit" />
           </AxisX>
           <AxisY VisibleInPanesSerializable="-1" ShowBehind="false">
-            <WholeRange StartSideMargin="6.9" EndSideMargin="6.9" SideMarginSizeUnit="AxisUnit" />
+            <WholeRange StartSideMargin="6.6" EndSideMargin="6.6" SideMarginSizeUnit="AxisUnit" />
           </AxisY>
           <SelectionOptions />
         </Diagram>
         <Legend CrosshairContentOffset="4" MaxCrosshairContentWidth="50" MaxCrosshairContentHeight="0" Visibility="True" />
         <Titles>
-          <Item1 Visibility="True" Font="Tahoma, 18pt" TextColor="" Antialiasing="true" EnableAntialiasing="Default" />
+          <Item1 Visibility="True" Text="ChartView54" Font="Tahoma, 18pt" TextColor="" Antialiasing="true" EnableAntialiasing="Default" />
         </Titles>
       </Chart>
-      <Legend visible="True" pattern="{A}" />
-      <Labels visible="True" pattern="{A}: {VP:p2} ({V:.##})" />
+      <Legend visible="False" pattern="{A}" />
+      <Labels visible="False" pattern="{A}: {VP:p2} ({V:.##})" />
       <Colors>
         <Argument value="table0row5" color="(255,94,114,132)" />
         <Argument value="table0row1" color="(255,117,147,146)" />
@@ -101,12 +104,116 @@
         <Argument value="table0row10" color="(255,53,132,121)" />
         <Argument value="table0row11" color="(255,148,166,154)" />
         <Argument value="table0row9" color="(255,94,118,164)" />
+        <Argument value="Preferred" color="(255,103,17,104)" />
+        <Argument value="New" color="(255,118,6,116)" />
+        <Argument value="Elite" color="(255,116,14,115)" />
+      </Colors>
+    </ChartView>
+    <ChartView name="ChartView37" titleVisible="True" title="New Portfolio" type="Bar" rotate="False">
+      <Columns>
+        <Column name="Parent" selected="false" type="string" />
+        <Column name="Rule" selected="true" type="string" role="Argument" />
+        <Column name="Outcome" selected="true" type="bool" role="Count" />
+        <Column name="InputDataIndex" selected="false" type="int" />
+      </Columns>
+      <Chart AppearanceNameSerializable="Default" SelectionMode="None" SeriesSelectionMode="Series">
+        <DataContainer BoundSeriesSorting="None" ValidateDataMembers="true">
+          <SeriesSerializable>
+            <Item1 LabelsVisibility="True" LegendTextPattern="{A}">
+              <Points>
+                <Item1 ValuesSerializable="16" ArgumentSerializable="Car is not listed in HTPA" />
+                <Item2 ValuesSerializable="59" ArgumentSerializable="table0row2" />
+                <Item3 ValuesSerializable="47" ArgumentSerializable="table0row3" />
+                <Item4 ValuesSerializable="39" ArgumentSerializable="table0row4" />
+                <Item5 ValuesSerializable="32" ArgumentSerializable="table0row5" />
+                <Item6 ValuesSerializable="26" ArgumentSerializable="table0row6" />
+                <Item7 ValuesSerializable="26" ArgumentSerializable="table0row7" />
+                <Item8 ValuesSerializable="66" ArgumentSerializable="table0row1" />
+                <Item9 ValuesSerializable="20" ArgumentSerializable="table0row8" />
+                <Item10 ValuesSerializable="14" ArgumentSerializable="table0row10" />
+                <Item11 ValuesSerializable="6" ArgumentSerializable="table0row11" />
+                <Item12 ValuesSerializable="6" ArgumentSerializable="Preferred" />
+                <Item13 ValuesSerializable="14" ArgumentSerializable="table0row9" />
+                <Item14 ValuesSerializable="8" ArgumentSerializable="r1" />
+                <Item15 ValuesSerializable="8" ArgumentSerializable="Rule-1" />
+                <Item16 ValuesSerializable="8" ArgumentSerializable="Driver.Location" />
+                <Item17 ValuesSerializable="8" ArgumentSerializable="Driver.Married" />
+                <Item18 ValuesSerializable="8" ArgumentSerializable="r2" />
+                <Item19 ValuesSerializable="8" ArgumentSerializable="Driver.ClientID" />
+                <Item20 ValuesSerializable="8" ArgumentSerializable="Driver.Violation" />
+                <Item21 ValuesSerializable="8" ArgumentSerializable="Driver.NumberOfAccident" />
+                <Item22 ValuesSerializable="8" ArgumentSerializable="Driver.DUI" />
+                <Item23 ValuesSerializable="8" ArgumentSerializable="Driver.Gender" />
+                <Item24 ValuesSerializable="8" ArgumentSerializable="Driver.Age" />
+                <Item25 ValuesSerializable="8" ArgumentSerializable="Driver" />
+                <Item26 ValuesSerializable="8" ArgumentSerializable="Driver.TrainingCertification" />
+                <Item27 ValuesSerializable="8" ArgumentSerializable="r3" />
+                <Item28 ValuesSerializable="8" ArgumentSerializable="r4" />
+                <Item29 ValuesSerializable="8" ArgumentSerializable="r5" />
+                <Item30 ValuesSerializable="5" ArgumentSerializable="Elite" />
+                <Item31 ValuesSerializable="3" ArgumentSerializable="New" />
+              </Points>
+              <Label TypeNameSerializable="SideBySideBarSeriesLabel" TextOrientation="Horizontal" TextPattern="{A}: {VP:p2} ({V:.##})" />
+            </Item1>
+          </SeriesSerializable>
+          <SeriesTemplate />
+        </DataContainer>
+        <Diagram EnableAxisXScrolling="true" EnableAxisYScrolling="true" EnableAxisXZooming="true" EnableAxisYZooming="true" RuntimePaneCollapse="true" RuntimePaneResize="false" PaneLayoutDirection="Vertical" TypeNameSerializable="XYDiagram">
+          <AxisX StickToEnd="false" VisibleInPanesSerializable="-1" ShowBehind="false">
+            <WholeRange StartSideMargin="0.5" EndSideMargin="0.5" SideMarginSizeUnit="AxisUnit" />
+          </AxisX>
+          <AxisY VisibleInPanesSerializable="-1" ShowBehind="false">
+            <WholeRange StartSideMargin="6.6" EndSideMargin="6.6" SideMarginSizeUnit="AxisUnit" />
+          </AxisY>
+          <SelectionOptions />
+        </Diagram>
+        <Legend CrosshairContentOffset="4" MaxCrosshairContentWidth="50" MaxCrosshairContentHeight="0" Visibility="True" />
+        <Titles>
+          <Item1 Visibility="True" Font="Tahoma, 18pt" TextColor="" Antialiasing="true" EnableAntialiasing="Default" />
+        </Titles>
+      </Chart>
+      <Legend visible="True" pattern="{A}" />
+      <Labels visible="False" pattern="{A}: {VP:p2} ({V:.##})" />
+      <Colors>
+        <Argument value="Car is not listed in HTPA" color="(255,103,17,104)" />
+        <Argument value="table0row2" color="(255,118,6,116)" />
+        <Argument value="table0row3" color="(255,116,14,115)" />
+        <Argument value="table0row4" color="(255,117,11,127)" />
+        <Argument value="table0row5" color="(255,102,25,121)" />
+        <Argument value="table0row6" color="(255,108,18,101)" />
+        <Argument value="table0row7" color="(255,122,6,112)" />
+        <Argument value="table0row1" color="(255,109,9,101)" />
+        <Argument value="table0row8" color="(255,123,4,125)" />
+        <Argument value="table0row10" color="(255,121,12,124)" />
+        <Argument value="table0row11" color="(255,95,29,107)" />
+        <Argument value="Preferred" color="(255,107,26,119)" />
+        <Argument value="table0row9" color="(255,108,22,130)" />
+        <Argument value="r1" color="(255,113,9,99)" />
+        <Argument value="Rule-1" color="(255,127,4,122)" />
+        <Argument value="Driver.Location" color="(255,99,30,105)" />
+        <Argument value="Driver.Married" color="(255,112,23,128)" />
+        <Argument value="r2" color="(255,126,16,108)" />
+        <Argument value="Driver.ClientID" color="(255,120,3,115)" />
+        <Argument value="Driver.Violation" color="(255,93,21,87)" />
+        <Argument value="Driver.NumberOfAccident" color="(255,119,10,131)" />
+        <Argument value="Driver.DUI" color="(255,91,38,125)" />
+        <Argument value="Driver.Gender" color="(255,124,3,112)" />
+        <Argument value="Driver.Age" color="(255,111,6,100)" />
+        <Argument value="Driver" color="(255,132,7,104)" />
+        <Argument value="Driver.TrainingCertification" color="(255,119,20,95)" />
+        <Argument value="r3" color="(255,131,13,117)" />
+        <Argument value="r4" color="(255,126,1,124)" />
+        <Argument value="r5" color="(255,118,29,113)" />
+        <Argument value="Elite" color="(255,123,11,128)" />
+        <Argument value="New" color="(255,98,22,85)" />
       </Colors>
     </ChartView>
   </Views>
   <Pages>
     <Page name="Page 1">
-      <ChartView name="ChartView54" />
+      <Layouts>77u/PFh0cmFTZXJpYWxpemVyIHZlcnNpb249IjEuMCIgYXBwbGljYXRpb249IkdyaWRXaWRnZXQiPg0KICA8cHJvcGVydHkgbmFtZT0iI0xheW91dFZlcnNpb24iIC8+DQogIDxwcm9wZXJ0eSBuYW1lPSIjTGF5b3V0U2NhbGVGYWN0b3IiPkAxLFdpZHRoPTFAMSxIZWlnaHQ9MTwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJMYXlvdXRNb2RlIj5GcmVlTGF5b3V0PC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkRvY3VtZW50UHJvcGVydGllcyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSIgLz4NCiAgPHByb3BlcnR5IG5hbWU9IlN0YWNrR3JvdXBQcm9wZXJ0aWVzIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iRG9jdW1lbnRTcGFjaW5nIj4wPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkZsb3dMYXlvdXRQcm9wZXJ0aWVzIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iRmxvd0xheW91dEl0ZW1zIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjAiIC8+DQogIDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJGcmVlTGF5b3V0UHJvcGVydGllcyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW1EcmFnU3R5bGUiPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJFbmFibGVTdGlja3lTcGxpdHRlcnMiPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJGcmVlTGF5b3V0SXRlbXMiIGlza2V5PSJ0cnVlIiB2YWx1ZT0iMiI+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dDYXB0aW9uQ29sb3JCbGVuZGluZyI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJSb3dJbmRleCI+MDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJDb2x1bW5JbmRleCI+MDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJSb3dTcGFuIj4xPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkNvbHVtblNwYW4iPjE8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iV2lkdGgiPjIwMDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJIZWlnaHQiPjIwMDwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0yIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93Q2FwdGlvbkNvbG9yQmxlbmRpbmciPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iUm93SW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQ29sdW1uSW5kZXgiPjE8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iUm93U3BhbiI+MTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJDb2x1bW5TcGFuIj4xPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IldpZHRoIj4yMDA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iSGVpZ2h0Ij4yMDA8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICA8L3Byb3BlcnR5Pg0KICA8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iRG9jdW1lbnRBbmltYXRpb25Qcm9wZXJ0aWVzIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEcmFnRHJvcFdvYmJsZUFuaW1hdGlvbiI+RGVmYXVsdDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY3VtZW50U3RhdGVDaGFuZ2VBbmltYXRpb24iPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iQWxsb3dTdGFydHVwQW5pbWF0aW9uIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkFsbG93UmVzaXplQW5pbWF0aW9uIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9Ik9yaWVudGF0aW9uIj5WZXJ0aWNhbDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY3VtZW50Q2FwdGlvbkNvbG9yQmxlbmRpbmciPnRydWU8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iQ3VzdG9tUmVzaXplWm9uZVRoaWNrbmVzcyI+MDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJTdHlsZSI+RGVmYXVsdDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdERvY3VtZW50c0Fsd2F5c09uVG9wIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkZsb2F0aW5nRG9jdW1lbnRDb250YWluZXIiPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iTG9hZGluZ0luZGljYXRvclByb3BlcnRpZXMiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiIC8+DQogIDxwcm9wZXJ0eSBuYW1lPSJEb2N1bWVudFNlbGVjdG9yUHJvcGVydGllcyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSIgLz4NCiAgPHByb3BlcnR5IG5hbWU9IldpbmRvd3NEaWFsb2dQcm9wZXJ0aWVzIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iUm93cyIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iQ29sdW1ucyIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iSXRlbXMiIGlza2V5PSJ0cnVlIiB2YWx1ZT0iNSI+DQogICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0xIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIj5GcmVlTGF5b3V0R3JvdXA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlN0YWNrR3JvdXBOYW1lIiBpc251bGw9InRydWUiIC8+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IldpbmRvd1N0YXRlIj5Ob3JtYWw8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IldpZHRoIj4yMDA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkhlaWdodCI+MjAwPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJNYXhpbWl6ZWQiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJSb3dJbmRleCI+MDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iQ29sdW1uSW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlJvd1NwYW4iPjE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkNvbHVtblNwYW4iPjE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlByb3BlcnRpZXMiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd01heGltaXplQnV0dG9uIj5UcnVlPC9wcm9wZXJ0eT4NCiAgICAgIDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSXNGbG9hdGluZyI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkxvY2F0aW9uIj5AMSxYPTBAMSxZPTA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlNpemUiPkAzLFdpZHRoPTkwOEAzLEhlaWdodD00NDc8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IklzQWN0aXZlIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5DaGFydFZpZXc1NDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVHlwZU5hbWUiPkRvY3VtZW50PC9wcm9wZXJ0eT4NCiAgICA8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMiIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50TmFtZSI+RnJlZUxheW91dEdyb3VwPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTdGFja0dyb3VwTmFtZSIgaXNudWxsPSJ0cnVlIiAvPg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkluZGV4Ij4xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJXaW5kb3dTdGF0ZSI+Tm9ybWFsPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJXaWR0aCI+MjAwPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJIZWlnaHQiPjIwMDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iTWF4aW1pemVkIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iUm93SW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkNvbHVtbkluZGV4Ij4xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJSb3dTcGFuIj4xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJDb2x1bW5TcGFuIj4xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQcm9wZXJ0aWVzIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dNYXhpbWl6ZUJ1dHRvbiI+VHJ1ZTwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IklzRmxvYXRpbmciPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJMb2NhdGlvbiI+QDEsWD0wQDEsWT0wPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaXplIj5ANCxXaWR0aD0xNDE0QDMsSGVpZ2h0PTY0NjwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSXNBY3RpdmUiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5DaGFydFZpZXczNzwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVHlwZU5hbWUiPkRvY3VtZW50PC9wcm9wZXJ0eT4NCiAgICA8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICA8cHJvcGVydHkgbmFtZT0iV2lkdGgiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVW5pdFZhbHVlIj4xPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlVuaXRUeXBlIj5TdGFyPC9wcm9wZXJ0eT4NCiAgICAgIDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSGVpZ2h0IiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlVuaXRWYWx1ZSI+MTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VHlwZSI+U3RhcjwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlBhcmVudCI+Um9vdDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iRWxlbWVudCIgaXNudWxsPSJ0cnVlIiAvPg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ik9yaWVudGF0aW9uIj5WZXJ0aWNhbDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ikxlbmd0aCIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VmFsdWUiPjE8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVW5pdFR5cGUiPlN0YXI8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5XaWRnZXREb2NraW5nQ29udGFpbmVyMDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVHlwZU5hbWUiPldpZGdldERvY2tpbmdDb250YWluZXI8L3Byb3BlcnR5Pg0KICAgIDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW00IiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJXaWR0aCIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VmFsdWUiPjE8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVW5pdFR5cGUiPlN0YXI8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJIZWlnaHQiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVW5pdFZhbHVlIj4wLjgzMDE4ODY3OTI0NTI4MzA2PC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlVuaXRUeXBlIj5TdGFyPC9wcm9wZXJ0eT4NCiAgICAgIDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50Ij5XaWRnZXREb2NraW5nQ29udGFpbmVyMDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iRWxlbWVudCI+Q2hhcnRWaWV3NTQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ik9yaWVudGF0aW9uIj5Ib3Jpem9udGFsPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJbmRleCI+MDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iTGVuZ3RoIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlVuaXRWYWx1ZSI+MC44MzAxODg2NzkyNDUyODMwNjwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VHlwZSI+U3RhcjwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ik5hbWUiPldpZGdldERvY2tpbmdDb250YWluZXIxPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUeXBlTmFtZSI+V2lkZ2V0RG9ja2luZ0NvbnRhaW5lcjwvcHJvcGVydHk+DQogICAgPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTUiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgPHByb3BlcnR5IG5hbWU9IldpZHRoIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlVuaXRWYWx1ZSI+MTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VHlwZSI+U3RhcjwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkhlaWdodCIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VmFsdWUiPjEuMTY5ODExMzIwNzU0NzE2OTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VHlwZSI+U3RhcjwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlBhcmVudCI+V2lkZ2V0RG9ja2luZ0NvbnRhaW5lcjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkVsZW1lbnQiPkNoYXJ0VmlldzM3PC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJPcmllbnRhdGlvbiI+SG9yaXpvbnRhbDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSW5kZXgiPjE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ikxlbmd0aCIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VmFsdWUiPjEuMTY5ODExMzIwNzU0NzE2OTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJVbml0VHlwZSI+U3RhcjwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ik5hbWUiPldpZGdldERvY2tpbmdDb250YWluZXIyPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUeXBlTmFtZSI+V2lkZ2V0RG9ja2luZ0NvbnRhaW5lcjwvcHJvcGVydHk+DQogICAgPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCjwvWHRyYVNlcmlhbGl6ZXI+</Layouts>
+      <ChartView name="Exising Portfolio" />
+      <ChartView name="ChartView37" />
     </Page>
   </Pages>
 </Booklet>

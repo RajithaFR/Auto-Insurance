@@ -39,11 +39,27 @@
             <l ymin="0" ymax="1">
               <segments>
                 <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="0" width="1" height="1" />
+          <style t="1">
+            <width>48.75pt</width>
+            <hidden>0</hidden>
+            <conditionalFormats />
+          </style>
+        </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="1">
+              <segments>
+                <s p="3" s="1" />
                 <s p="1024" s="0" />
               </segments>
             </l>
           </lines>
-          <bounds x="2" y="0" width="1022" height="1" />
+          <bounds x="3" y="0" width="1021" height="1" />
           <style t="1">
             <hidden>1</hidden>
             <conditionalFormats />
@@ -62,7 +78,6 @@
           </lines>
           <bounds x="1" y="0" width="1" height="1" />
           <style t="2">
-            <height>30pt</height>
             <hidden>1</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
@@ -139,7 +154,6 @@
           </lines>
           <bounds x="2" y="0" width="1" height="1" />
           <style t="2">
-            <height>2.25pt</height>
             <hidden>1</hidden>
             <outlineLevel>1</outlineLevel>
             <conditionalFormats />
@@ -169,19 +183,19 @@
             <l ymin="3" ymax="5">
               <segments>
                 <s p="0" s="1" />
-                <s p="2" s="0" />
+                <s p="3" s="0" />
               </segments>
             </l>
             <l ymin="5" ymax="6">
               <segments>
                 <s p="0" s="1" />
-                <s p="1" s="0" />
-                <s p="1" s="1" />
                 <s p="2" s="0" />
+                <s p="2" s="1" />
+                <s p="3" s="0" />
               </segments>
             </l>
           </lines>
-          <bounds x="0" y="3" width="2" height="3" />
+          <bounds x="0" y="3" width="3" height="3" />
           <style t="0">
             <conditionalFormats />
             <halign>1</halign>
@@ -217,6 +231,21 @@
             <background id="1" />
           </style>
         </region>
+        <region>
+          <lines>
+            <l ymin="0" ymax="3">
+              <segments>
+                <s p="2" s="1" />
+                <s p="3" s="0" />
+              </segments>
+            </l>
+          </lines>
+          <bounds x="2" y="0" width="1" height="3" />
+          <style t="0">
+            <conditionalFormats />
+            <background id="2" />
+          </style>
+        </region>
       </styles>
       <mergedCells />
       <columns>
@@ -224,6 +253,9 @@
           <tag />
         </column>
         <column n="1" pageBreak="0" collapsed="0">
+          <tag />
+        </column>
+        <column n="2" pageBreak="0" collapsed="0">
           <tag />
         </column>
       </columns>
@@ -235,45 +267,63 @@
           <c c="1">
             <v t="23">2</v>
           </c>
+          <c c="2">
+            <v t="23">3</v>
+          </c>
         </row>
         <row r="1" title="" pageBreak="0" collapsed="0">
           <c c="0">
-            <v t="23">3</v>
-          </c>
-          <c c="1">
             <v t="23">4</v>
           </c>
-        </row>
-        <row r="2" title="" pageBreak="0" collapsed="0">
-          <c c="0">
+          <c c="1">
             <v t="23">5</v>
           </c>
-          <c c="1">
+          <c c="2">
             <v t="23">6</v>
           </c>
         </row>
-        <row r="3" title="1" pageBreak="0" collapsed="1">
+        <row r="2" title="" pageBreak="0" collapsed="0">
           <c c="0">
             <v t="23">7</v>
           </c>
           <c c="1">
             <v t="23">8</v>
           </c>
+          <c c="2">
+            <v t="23">9</v>
+          </c>
+        </row>
+        <row r="3" title="1" pageBreak="0" collapsed="1">
+          <c c="0">
+            <v t="23">10</v>
+          </c>
+          <c c="1">
+            <v t="23">11</v>
+          </c>
+          <c c="2">
+            <v t="23">12</v>
+          </c>
         </row>
         <row r="4" title="2" pageBreak="0" collapsed="0">
           <c c="0">
-            <v t="23">9</v>
+            <v t="23">13</v>
           </c>
           <c c="1">
-            <v t="23">10</v>
+            <v t="23">14</v>
+          </c>
+          <c c="2">
+            <v t="23">15</v>
           </c>
         </row>
         <row r="5" title="3" pageBreak="0" collapsed="0">
           <c c="0">
-            <v t="23">11</v>
+            <v t="23">9</v>
           </c>
           <c c="1">
-            <v t="23">12</v>
+            <v t="23">16</v>
+          </c>
+          <c c="2">
+            <v t="23">17</v>
           </c>
         </row>
       </data>
@@ -284,11 +334,14 @@
   <resources>
     <sharedStrings />
     <brushes>
-      <brush n="0" t="solid">
-        <color>#FFC0FFC0</color>
+      <brush n="2" t="solid">
+        <color>#FFFFFFC0</color>
       </brush>
       <brush n="1" t="solid">
         <color>#FFFFE0C0</color>
+      </brush>
+      <brush n="0" t="solid">
+        <color>#FFC0FFC0</color>
       </brush>
     </brushes>
     <images />
@@ -298,6 +351,7 @@
     <Columns>
       <Add name="Client" description="" />
       <Add name="Market Segment Discount" description="" />
+      <Add name="Rule Name" description="" />
     </Columns>
   </FlexRule>
 </workbook>

@@ -2,7 +2,7 @@
   <NodeInfo name="Calculate Eligibility Score" type="DRD" />
   <NodeInfo name="Decision110" type="Decision">
     <Label>
-      <Text>Calculate Eligibility Sore</Text>
+      <Text>Calculate Eligibility Score</Text>
       <Font>
         <Name>Microsoft Sans Serif</Name>
         <Style>Regular</Style>

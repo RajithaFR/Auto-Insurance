@@ -6,19 +6,23 @@
   <Columns>
     <Condition name="Client" expression="ClientSegment" />
     <Action name="Market Segment Discount" expression="MaketSegmentDiscount" />
+    <Name />
   </Columns>
   <Data>
     <Row>
       <Value>Preferred Client</Value>
       <Value>250</Value>
+      <Value>Preferred</Value>
     </Row>
     <Row>
       <Value>Elite Client</Value>
       <Value>500</Value>
+      <Value>Elite</Value>
     </Row>
     <Row>
       <Value></Value>
       <Value>0</Value>
+      <Value>New</Value>
     </Row>
   </Data>
 </DecisionTable>

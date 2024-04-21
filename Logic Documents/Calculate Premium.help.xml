@@ -307,45 +307,6 @@ Amount</Text>
       <Height>10</Height>
     </Size>
   </NodeInfo>
-  <NodeInfo name="ClientSegment" type="InputData">
-    <Label>
-      <Text>Client
-Segment</Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-      <Size>
-        <Width>20</Width>
-        <Height>10</Height>
-      </Size>
-      <Location>
-        <X>107.5479</X>
-        <Y>41.85832</Y>
-      </Location>
-      <Alignment>
-        <Vertical>Center</Vertical>
-        <Horizontal>Center</Horizontal>
-      </Alignment>
-    </Label>
-    <Image></Image>
-    <ImageAlign>Center</ImageAlign>
-    <FillColorFrom>-2572328</FillColorFrom>
-    <FillColorTo>-2572328</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>107.5479</X>
-      <Y>41.85832</Y>
-    </Location>
-    <Size>
-      <Width>20</Width>
-      <Height>10</Height>
-    </Size>
-  </NodeInfo>
   <NodeInfo name="Transition268" type="Transition">
     <Label>
       <Text></Text>
@@ -693,56 +654,6 @@ Segment</Text>
       <End>
         <X>60.24374</X>
         <Y>74.15804</Y>
-      </End>
-    </Points>
-  </NodeInfo>
-  <NodeInfo name="Transition437" type="Transition">
-    <Label>
-      <Text></Text>
-      <Font>
-        <Name>Microsoft Sans Serif</Name>
-        <Style>Regular</Style>
-        <Size>9</Size>
-      </Font>
-    </Label>
-    <FillColorFrom>-9868951</FillColorFrom>
-    <FillColorTo>-9868951</FillColorTo>
-    <Border>
-      <Color>-16777216</Color>
-      <Width>0.3</Width>
-    </Border>
-    <Location>
-      <X>85.94165</X>
-      <Y>46.15177</Y>
-    </Location>
-    <Size>
-      <Width>21.95026</Width>
-      <Height>0.8809662</Height>
-    </Size>
-    <Shape>Polyline</Shape>
-    <SegmentCount>1</SegmentCount>
-    <Anchors>
-      <Origin>-1</Origin>
-      <Destination>-1</Destination>
-    </Anchors>
-    <Head>Triangle</Head>
-    <Pen>0/#FF000000/0.3/0/0//0/0/10/</Pen>
-    <Points>
-      <Point>
-        <X>107.5919</X>
-        <Y>46.73274</Y>
-      </Point>
-      <Point>
-        <X>86.24165</X>
-        <Y>46.45177</Y>
-      </Point>
-      <Start>
-        <X>107.5919</X>
-        <Y>46.73274</Y>
-      </Start>
-      <End>
-        <X>86.24165</X>
-        <Y>46.45177</Y>
       </End>
     </Points>
   </NodeInfo>

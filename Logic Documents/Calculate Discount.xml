@@ -1,4 +1,7 @@
 <DRD name="Calculate Discount">
+  <Declaration>
+    <Define name="ClientSegment" type="string" direction="Local" />
+  </Declaration>
   <Nodes>
     <Decision name="Decision170" uri="Logic Documents\AutoDiscounts.xml" contextMode="Shared" type="Table">
       <Transition name="Transition60" to="Decision59" relationType="Information" />
@@ -13,8 +16,11 @@
       <Transition name="Transition243" to="Decision170" relationType="Information" />
     </InputData>
     <Decision name="Decision59" />
-    <InputData name="ClientSegment" isOutput="False" type="string">
-      <Transition name="Transition248" to="Decision171" relationType="Information" />
+    <SubDrd name="SubDrd123" skip="ClientSegment isnt null or ClientSegment is empty" uri="Client Segmentation\Client Segmentation.xml" contextMode="Shared">
+      <Transition name="Transition124" to="Decision171" relationType="Information" />
+    </SubDrd>
+    <InputData name="Driver" isOutput="False" type="Driver" assembly="Glossaries\InputFact.xml">
+      <Transition name="Transition156" to="SubDrd123" relationType="Information" />
     </InputData>
   </Nodes>
 </DRD>
